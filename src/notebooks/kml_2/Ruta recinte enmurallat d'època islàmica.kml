@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Ruta recinte enmurallat d'època islàmica]]></name>
+    <description>Es pren com a referència el traçat de la muralla en el moment de la conquesta cristiana de la ciutat en 1238 per les tropes de Jaume I.</description>
+    <Style id="icon-seq2-0-0-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-0-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-0-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-0-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-0-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-1-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-1-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-1-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-1-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-1-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-10-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-11.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-10-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-11.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-10-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-10-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-10-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-11-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-12.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-11-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-12.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-11-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-11-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-11-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-12-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-13.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-12-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-13.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-12-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-12-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-12-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-13-9C27B0-nodesc-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-14.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-13-9C27B0-nodesc-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-14.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-13-9C27B0-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-13-9C27B0-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-13-9C27B0-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-14-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-15.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-14-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-15.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-14-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-14-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-14-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-15-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-16.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-15-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-16.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-15-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-15-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-15-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-16-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-17.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-16-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-17.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-16-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-16-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-16-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-17-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-18.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-17-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-18.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-17-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-17-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-17-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-2-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-2-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-2-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-2-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-2-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-3-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-3-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-3-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-3-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-3-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-4-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-4-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-4-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-4-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-4-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-5-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-5-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-5-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-5-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-5-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-6-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-7.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-6-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-7.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-6-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-6-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-6-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-7-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-8.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-7-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-8.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-7-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-7-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-7-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-8-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-9.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-8-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-9.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-8-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-8-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-8-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-9-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-10.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-9-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-10.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-9-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-9-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-9-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Ruta Islàmica</name>
+      <Placemark>
+        <name>Fundación Florida State University</name>
+        <description><![CDATA[<img src="https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/i2mc9832douct2bq3ekj4vpalg/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vY3Am72tNAZ1puSHmJVrL0c7g8jTgbVsn5qHy13hewJTPEw_4iKjWYv8O9nwg1VqXHH1C9_nSPzlwvvUtkmXO-6s0UQjF96keDGozcQI-vt1jS2twEVYSJyBT06d1VLyIWhYIZgHLKnD7ZhzhYlNF65zfznqNllUPcTubQafYKvM89B4LzbAH5GY69C4geFrPHv?session=0&fife" height="200" width="auto" /><br><br>Començarem el recorregut partint de la Porta del-Qantara que se situaria darrere de les torres de Serrans, des d'on el mur giraria al SO, cap a la plaça dels Furs i el carrer de les Roques. Ací, la Fundació Florida State University (FSU) en el número 2 del carrer Blanquerías ha recuperat una torrassa defensiva semicircular, una línia de merlets i diverses basses de tintat de curtidores d'època medieval. Tots aquests elements s'han integrat en el saló d'actes de l'edifici i estan a la vista, encara que per a veure'ls cal sol·licitar autorització.<br><br><img src="https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/olt774coe202uscghuflq696po/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vbnK8GluyArE0npuveSI5k5C_7Y9CkVXb7W-bV7YpkugJEzdZqoWsJFoTVqOt90klxjIuqg_DkFDwyJf2FIfYph8MyOx3mcQFNSp8T1vk8xdRHT7xK5AV1YYE-keZj74lPFRuHOMIKSW9mBIYwRveVxaOKa3xMZ_YH6Axu9GZJPyyHWFzkndj2PXkMt4a8PAzfL?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-seq2-0-0-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/i2mc9832douct2bq3ekj4vpalg/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vY3Am72tNAZ1puSHmJVrL0c7g8jTgbVsn5qHy13hewJTPEw_4iKjWYv8O9nwg1VqXHH1C9_nSPzlwvvUtkmXO-6s0UQjF96keDGozcQI-vt1jS2twEVYSJyBT06d1VLyIWhYIZgHLKnD7ZhzhYlNF65zfznqNllUPcTubQafYKvM89B4LzbAH5GY69C4geFrPHv?session=0&fife https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/olt774coe202uscghuflq696po/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vbnK8GluyArE0npuveSI5k5C_7Y9CkVXb7W-bV7YpkugJEzdZqoWsJFoTVqOt90klxjIuqg_DkFDwyJf2FIfYph8MyOx3mcQFNSp8T1vk8xdRHT7xK5AV1YYE-keZj74lPFRuHOMIKSW9mBIYwRveVxaOKa3xMZ_YH6Axu9GZJPyyHWFzkndj2PXkMt4a8PAzfL?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.376237,39.4790453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaça dels Furs</name>
+        <description><![CDATA[<img src="https://doc-0o-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/kisrqs6mm11c6j9db0gdkua89g/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vZVwSCNfBRxS8O2jlNG6ex3XANqhW7JzDiIdnmo8zVnMmpMgIsvzEyZXq2gNzm8u8a0_L3HgREN_kn9BYxilGgyFUofpqlkWAUZEaqGSdALR1jERlYXeTcWRy7_Ut2Us0t-9TeaU4laWhCctatzqL85zvHMarEvMVNJAkM3Fscuj4yaQuc4NZRLrJAQhmH0vmyz?session=0&fife" height="200" width="auto" /><br><br>En la plaça dels Furs entre els números 2 i 4, dins dels comerços allí situats, es pot observar una part del mur islàmic en la planta baixa d'aquests.]]></description>
+        <styleUrl>#icon-seq2-0-1-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0o-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/kisrqs6mm11c6j9db0gdkua89g/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vZVwSCNfBRxS8O2jlNG6ex3XANqhW7JzDiIdnmo8zVnMmpMgIsvzEyZXq2gNzm8u8a0_L3HgREN_kn9BYxilGgyFUofpqlkWAUZEaqGSdALR1jERlYXeTcWRy7_Ut2Us0t-9TeaU4laWhCctatzqL85zvHMarEvMVNJAkM3Fscuj4yaQuc4NZRLrJAQhmH0vmyz?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3764033,39.4789541,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Forn de Montaner</name>
+        <description><![CDATA[<img src="https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/kk4m2qheeamgck43qbdo9d1e4k/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vaam6SvCPyj-gdBNREpoZowFEWLmkCvJ2fWtrwCzAnHzwkj-AlWHTB4BKF_-Wolb7YGHL0aE4vMUYzAEuShpLPH13if6G5KlEsBCXyXQpZSdi7dgiqJjEnnpgDGgyRvD6D5Xkvj-vp8Ttnfn7yW2ZhklZBIfDL71514c41ZWGw9We5BAnJCsSGlnHkJMWF2U8cr?session=0&fife" height="200" width="auto" /><br><br>En el forn de Montaner situat en el número 5 del carrer Roteros, es va integrar un fragment de huit metres del mur defensiu que és visible en la façana externa i a l'interior del forn.<br><br><img src="https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/63t5j1f2h31460cb35gt6ea7hs/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vaFUcljDFjPNBtJdfLZxMOphaI-_GsOKzBFFQWl9UxotbuOP8lihuzqWmBiAxuaz1ol6CunLjPo6zC-A1Un4S3WDWAn4codrCH_eP_7FUwoQdYJVp2HbJ1nCgVr77G123NoUq0tKpzJZVB5ABMmmQefrfm-Mcoe7vUHYOsYb9aKDtw35-mZbOMw4LiF454hHoOY?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-seq2-0-2-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/kk4m2qheeamgck43qbdo9d1e4k/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vaam6SvCPyj-gdBNREpoZowFEWLmkCvJ2fWtrwCzAnHzwkj-AlWHTB4BKF_-Wolb7YGHL0aE4vMUYzAEuShpLPH13if6G5KlEsBCXyXQpZSdi7dgiqJjEnnpgDGgyRvD6D5Xkvj-vp8Ttnfn7yW2ZhklZBIfDL71514c41ZWGw9We5BAnJCsSGlnHkJMWF2U8cr?session=0&fife https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/63t5j1f2h31460cb35gt6ea7hs/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vaFUcljDFjPNBtJdfLZxMOphaI-_GsOKzBFFQWl9UxotbuOP8lihuzqWmBiAxuaz1ol6CunLjPo6zC-A1Un4S3WDWAn4codrCH_eP_7FUwoQdYJVp2HbJ1nCgVr77G123NoUq0tKpzJZVB5ABMmmQefrfm-Mcoe7vUHYOsYb9aKDtw35-mZbOMw4LiF454hHoOY?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3766152,39.4788309,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carrer Palomino - Plaça del Angel</name>
+        <description><![CDATA[<img src="https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/qngluoe6446i07fjdomjb7sii4/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vaAm-VlrjpRo1bU9ZyOcg7p2LoqhAK-MU-w5sp6yWjQ3FobL8945wNs2kZo6ruWs7SzNAh8e-jX25ws5_JFMc-3fVFK76UDxQP4k_7qV47A1uvnfERytbztm6i7f7Gs0CLaM8P2mviOVUF5IQon8KJl7HxCIqSBRAxmzjhxrvGOLLixtF6BLetYSsJQGM_4E_iS?session=0&fife" height="200" width="auto" /><br><br>A partir d'ací, i seguint el carrer Palomino, s'arriba a la plaça de l'Àngel on es conserva un de les torrasses més conegudes des d'antic i que actualment està ocupat per habitatges particulars. <br><br><img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/bckeamvcjfhi08cc1488s2en98/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vYCf6_6IG_5EGNWgUorFMlPqr7YpGA3Zq6XLp4sO9j-ABZFx9WDHUY1v65rigE61Q6R8KouiaMlbuuVL1M84R6vgWR9BRFifPkUNsFZ5nWRl_sk4qVbWft_amYk5TYkt3Qn8t8jFPtoFrFQz6Hf325eJvF3U5_DNqJZ2diFAihElAnBG5jnRuvRoaargTui5p0?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-seq2-0-3-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/qngluoe6446i07fjdomjb7sii4/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vaAm-VlrjpRo1bU9ZyOcg7p2LoqhAK-MU-w5sp6yWjQ3FobL8945wNs2kZo6ruWs7SzNAh8e-jX25ws5_JFMc-3fVFK76UDxQP4k_7qV47A1uvnfERytbztm6i7f7Gs0CLaM8P2mviOVUF5IQon8KJl7HxCIqSBRAxmzjhxrvGOLLixtF6BLetYSsJQGM_4E_iS?session=0&fife https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/bckeamvcjfhi08cc1488s2en98/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vYCf6_6IG_5EGNWgUorFMlPqr7YpGA3Zq6XLp4sO9j-ABZFx9WDHUY1v65rigE61Q6R8KouiaMlbuuVL1M84R6vgWR9BRFifPkUNsFZ5nWRl_sk4qVbWft_amYk5TYkt3Qn8t8jFPtoFrFQz6Hf325eJvF3U5_DNqJZ2diFAihElAnBG5jnRuvRoaargTui5p0?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3776291,39.4781524,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Torre Marevella</name>
+        <description><![CDATA[<img src="https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/v7pmoqc2cnku5heq4ti5i1s7io/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vbNkozE52ioYX8Hz0_2pHttiSdrZYLHaV577GdGnBP8Q5xVJQFwZL4z9_26a3xhH8WNxb9xUOcagikAj_nyKSIZcw-qkMV2nv1QwlZCSITXOA3vtXJCH3k7EpYV1X2D_QQXZhooOfC88hbWG4c6CPFeYJ0_h1LYOO1XvgQ5ceemEYxM273SGiUcvDRofGgT0Iul?session=0&fife" height="200" width="auto" /><br><br>Des d'aquest punt, el mur s'introdueix per la plaça de Beneyto i Coll, seguint pel carrer Mare Vella, lloc en el qual es localitza una tercera torre de maçoneria, utilitzada també com a habitatge particular.]]></description>
+        <styleUrl>#icon-seq2-0-4-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/v7pmoqc2cnku5heq4ti5i1s7io/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vbNkozE52ioYX8Hz0_2pHttiSdrZYLHaV577GdGnBP8Q5xVJQFwZL4z9_26a3xhH8WNxb9xUOcagikAj_nyKSIZcw-qkMV2nv1QwlZCSITXOA3vtXJCH3k7EpYV1X2D_QQXZhooOfC88hbWG4c6CPFeYJ0_h1LYOO1XvgQ5ceemEYxM273SGiUcvDRofGgT0Iul?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3781226,39.4778481,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Portal de Valldigna</name>
+        <description><![CDATA[<img src="https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/43osh3r7pctn7fccnjgpfa1vdo/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vbU7rF9tFqV5Q5k7xKmxF7OFdKq_SEkHK9IQC_piJ0fYC2QXfnsEBtasSFwwdiEsjhn5Ujb5QXQsK1XZ9Si-GnTAax_v8LawlXJUGw0J6di2ZUSO8I18bl_uSNFxQJiOXPBionfRCUtNABuUsRVGXg6EYovDWDnrWKm-t7l9wTWz7uFdvgvU4s1aVAwmD4Gguyc?session=0&fife" height="200" width="auto" /><br><br>Des d'ací es prossegueix pel Portal de Valldigna, porta oberta l'any 1400 per a comunicar l'interior de la ciutat amb la moreria.<br><br><img src="https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/a3o418hk3cjaliu2m4c39v53gs/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vYJoyRdxkan18TIHPs48n1_S0b-peYWiPEef_zb8LsKA2RrPIz3neWZ-14OjthNa-uQdkWKW-I-M3W5jszqhHwddP1WH8ZMZ0ecD-173TYbzSLl6zmBDbWXwTFPtC7Bn4haH8WJB6SHzPUmsbEdD-nJThNHajQP-rBd63wbmyLo7zNK3ELbkGF8cDDlqIXv0Ww4?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/k2a5vdukjmnigpuviptdtb87a8/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vbZnszw0kUPySvZDGW7vrSUYwm-KU8WF5sMmlogF6MPJuifvBf6wp3k-EhhSL8pL95kwuHGPoO8ZJKyjdFmmPnAJkrlefLFi7y3IyLll25YNFbfEQQDTsOQDW7v7Zf2IksaIJYpY2rkWwEOLjbE2SgXOi5hsLG4P9Y24t5mVs1Z9WyNlgwHtudIzuZSVBTsBvzh?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-seq2-0-5-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/43osh3r7pctn7fccnjgpfa1vdo/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vbU7rF9tFqV5Q5k7xKmxF7OFdKq_SEkHK9IQC_piJ0fYC2QXfnsEBtasSFwwdiEsjhn5Ujb5QXQsK1XZ9Si-GnTAax_v8LawlXJUGw0J6di2ZUSO8I18bl_uSNFxQJiOXPBionfRCUtNABuUsRVGXg6EYovDWDnrWKm-t7l9wTWz7uFdvgvU4s1aVAwmD4Gguyc?session=0&fife https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/a3o418hk3cjaliu2m4c39v53gs/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vYJoyRdxkan18TIHPs48n1_S0b-peYWiPEef_zb8LsKA2RrPIz3neWZ-14OjthNa-uQdkWKW-I-M3W5jszqhHwddP1WH8ZMZ0ecD-173TYbzSLl6zmBDbWXwTFPtC7Bn4haH8WJB6SHzPUmsbEdD-nJThNHajQP-rBd63wbmyLo7zNK3ELbkGF8cDDlqIXv0Ww4?session=0&fife https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/k2a5vdukjmnigpuviptdtb87a8/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vbZnszw0kUPySvZDGW7vrSUYwm-KU8WF5sMmlogF6MPJuifvBf6wp3k-EhhSL8pL95kwuHGPoO8ZJKyjdFmmPnAJkrlefLFi7y3IyLll25YNFbfEQQDTsOQDW7v7Zf2IksaIJYpY2rkWwEOLjbE2SgXOi5hsLG4P9Y24t5mVs1Z9WyNlgwHtudIzuZSVBTsBvzh?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.378578,39.4775386,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Muralla Salinas</name>
+        <description><![CDATA[<img src="https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/2kao42ptk5dcpp2923egm9r1n4/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1va-BhgBRqxwT0s6jcvMFDI7MaJqYfUbobvQ-5NcmR4UvQoDikqJky7fecH2Ketgz-Y-Or2fZG2_Q83TMLvFc0HG0jv7GpmncP7LS11wMUK-jOjtfEYKCas0c0aC0UE8VbMZWlUeGZHHTMvDKXOlEyOQKZo9_sd0lj3a9DkmUBnikQz9tdelRC5NpL-n6Q_2QM7x?session=0&fife" height="200" width="auto" /><br><br>,Continuant pel carrer Salines, on es conservar exempt en la línia de façana parteix del llenç.]]></description>
+        <styleUrl>#icon-seq2-0-6-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/2kao42ptk5dcpp2923egm9r1n4/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1va-BhgBRqxwT0s6jcvMFDI7MaJqYfUbobvQ-5NcmR4UvQoDikqJky7fecH2Ketgz-Y-Or2fZG2_Q83TMLvFc0HG0jv7GpmncP7LS11wMUK-jOjtfEYKCas0c0aC0UE8VbMZWlUeGZHHTMvDKXOlEyOQKZo9_sd0lj3a9DkmUBnikQz9tdelRC5NpL-n6Q_2QM7x?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3789964,39.4772798,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Caballers, 36 i 38</name>
+        <description><![CDATA[<img src="https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/4uh9rn16b08f18rb0u5ks7c650/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vZZIll2zGuZ2xl3NYJnty-hvZE4Wka_05tWGYLUftc9m73MgOxYzUKdjQLUHnOnkaYlq9ec3NH1ZI-clqHBsOmYcXBMl9Nj6Ovq4LiuDljhIT7HaH5c3oA2Q2tzCWOdOk5RcrdwLNqj0llUxRUZ4l_3P7q7Se4NTHGmf6jO5UmDs5-9v1ZEYDAvSFLAaFQFvmhU?session=0&fife" height="200" width="auto" /><br><br>a muralla s'endinsa pels edificis del carrer de Cavallers, a l'altura dels números 36 i 38, actualment ocupats per una escola d'idiomes, en l'interior dels quals es pot observar un important tram de mur, així com dues torres fins a l'altura del primer pis. <br><br><img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/0fcjl5vk3vfhd0palpios6m5q4/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vZw1CjjzZxQn9Jt7boajBJHCzJrT21NcbtFsiwb_w6GHz1Yofwk5jRQjHM-qkpoXolgE3Tziub6mtfOub6VqEIn_5Xvu93OLRE4f11N35d4zMYAzTWD1j9fvrtVLsqdLkF3xgvrpKvtviEDNrF_Ycos6VVM2-RjPd2gS6dkM2MEYh6NSqePfnGU_gL0SNfblSSB?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/k77iqvi4v87dn3a3vounvl93bs/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vY040K4GPsix0xRHiWJTRtXuaaqME6LqjgorRlh1pX0wJ0lmY8kZ4z_KJ_4U1Kk0uebuxSKatM_-O2pHq-nAyq-XIYLFdAlss1N5V_RZO1kg5VnrSNSAm3Dwoclfvp1ofGHCHIPExWsT3OaQi_BaL4pBFkQnvR0Leqnr4H3N7dHtP3XrI5seKv8kse9hHyNOfcI?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/tmfgd3331pdeea2ghs3hanv5rs/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1va8xv55p4t58R-aHmhhJxQYsdnFXWkVMpXN0MQwYHIJgytjSoOJh3a-UB7OG-hb4hUrgwsI_oarxcWIAPYxwaGp57mGfKrlNNGF7WllV12lCEoBhYBva1ixzAv5IakbhlXx2e9X_iqLyr3VZqbfGfbtayx747IXRaDwU0E6otgKrNBzp0r9tI_VbDbvQpQHuP92?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-seq2-0-7-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/4uh9rn16b08f18rb0u5ks7c650/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vZZIll2zGuZ2xl3NYJnty-hvZE4Wka_05tWGYLUftc9m73MgOxYzUKdjQLUHnOnkaYlq9ec3NH1ZI-clqHBsOmYcXBMl9Nj6Ovq4LiuDljhIT7HaH5c3oA2Q2tzCWOdOk5RcrdwLNqj0llUxRUZ4l_3P7q7Se4NTHGmf6jO5UmDs5-9v1ZEYDAvSFLAaFQFvmhU?session=0&fife https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/0fcjl5vk3vfhd0palpios6m5q4/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vZw1CjjzZxQn9Jt7boajBJHCzJrT21NcbtFsiwb_w6GHz1Yofwk5jRQjHM-qkpoXolgE3Tziub6mtfOub6VqEIn_5Xvu93OLRE4f11N35d4zMYAzTWD1j9fvrtVLsqdLkF3xgvrpKvtviEDNrF_Ycos6VVM2-RjPd2gS6dkM2MEYh6NSqePfnGU_gL0SNfblSSB?session=0&fife https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/k77iqvi4v87dn3a3vounvl93bs/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vY040K4GPsix0xRHiWJTRtXuaaqME6LqjgorRlh1pX0wJ0lmY8kZ4z_KJ_4U1Kk0uebuxSKatM_-O2pHq-nAyq-XIYLFdAlss1N5V_RZO1kg5VnrSNSAm3Dwoclfvp1ofGHCHIPExWsT3OaQi_BaL4pBFkQnvR0Leqnr4H3N7dHtP3XrI5seKv8kse9hHyNOfcI?session=0&fife https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/tmfgd3331pdeea2ghs3hanv5rs/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1va8xv55p4t58R-aHmhhJxQYsdnFXWkVMpXN0MQwYHIJgytjSoOJh3a-UB7OG-hb4hUrgwsI_oarxcWIAPYxwaGp57mGfKrlNNGF7WllV12lCEoBhYBva1ixzAv5IakbhlXx2e9X_iqLyr3VZqbfGfbtayx747IXRaDwU0E6otgKrNBzp0r9tI_VbDbvQpQHuP92?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3795302,39.4767984,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Galería del Tossal</name>
+        <description><![CDATA[<img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/ii44phr78nnfff1gn0he40sltg/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vYlUnruofBk039YWyfoRCZL93KsQ5LMAm8ylzShqA-yJuZ-0vc_tFALeei_e2g_PAQ7bQsIFsWjLfHTIqoK6vV_mCLX03bUR6pstlRnNc_iM18rM6DbxA7gNfT0eB0Wp6J4VsJan8S7E1rgcStP-9C2gp2jjcw7cy0cmp4pbacW0_kQ2byX68yy4CrhszqNfN8?session=0&fife" height="200" width="auto" /><br><br>Des d'ací es passa a la plaça del Tossal on, en la Galeria municipal del mateix nom dedicada a exposicions temporals, es mostren les restes d'una torre i llenç de la muralla corresponent a la porta del-Hanax que va ser remodelada mitjançant una torre quadrada de tapial en el segle XII. També s'observen uns arcs de rajola, sobre els quals s'elevava la volta que cobria la séquia de Rovella, conducció que va ser canalitzada per l'antic fossat de la muralla en el segle XV.]]></description>
+        <styleUrl>#icon-seq2-0-8-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/ii44phr78nnfff1gn0he40sltg/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vYlUnruofBk039YWyfoRCZL93KsQ5LMAm8ylzShqA-yJuZ-0vc_tFALeei_e2g_PAQ7bQsIFsWjLfHTIqoK6vV_mCLX03bUR6pstlRnNc_iM18rM6DbxA7gNfT0eB0Wp6J4VsJan8S7E1rgcStP-9C2gp2jjcw7cy0cmp4pbacW0_kQ2byX68yy4CrhszqNfN8?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3801873,39.4762208,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Col·legi Major Rector Peset</name>
+        <description><![CDATA[<img src="https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/ou53daudnsg54a01fovjgh6ppg/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vbEOiffO_lVd9LU2RM-RwcIMxBhaBDKfGIOXuOw_51WSPrKv4OSXvf1FsEkeFJ1OTELNlWwUBLTq8KBzHlbds7fPhnHUnXzMKR63eUZONQuRTVikqiokmfxoUqoujptZiihR0h5GpiQ4PCs3yJsQBUxZdbdgUDIz_-vElWDR2ECdOoYaRE1rIz05FvmGhVEbAMa?session=0&fife" height="200" width="auto" /><br><br>A partir d'aquest punt, la muralla continuaria pel carrer Bolsería arribant a la plaça del Forn de Sant Nicolás núm. 4, on a la sala d'exposicions del Col·legi Major Rector Peset s'han integrat part de l'a prop i una altra de les torres semicirculars del segle XI.<br><br><img src="https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/b3hjp4nafjtj58a1421gsuup6o/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vYnkLx-SV5xTUqxuuPDMeiCtDixluOz3Yg9f5h1qEhNpUnIDqAdjjBuQ2AXOa4efbma6Zk3-dQzF3-6iCI-g3zwqSJpVopaT2EQOA5NDRAx3YuQBfqZ7DNvFc-MMQpq-qc12QRCNiVVjun38XxrcUb7PH0yL0c-j7-l7JgBELabs37c3gzg3mcAAaHcJA1sFa04?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-seq2-0-9-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/ou53daudnsg54a01fovjgh6ppg/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vbEOiffO_lVd9LU2RM-RwcIMxBhaBDKfGIOXuOw_51WSPrKv4OSXvf1FsEkeFJ1OTELNlWwUBLTq8KBzHlbds7fPhnHUnXzMKR63eUZONQuRTVikqiokmfxoUqoujptZiihR0h5GpiQ4PCs3yJsQBUxZdbdgUDIz_-vElWDR2ECdOoYaRE1rIz05FvmGhVEbAMa?session=0&fife https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/b3hjp4nafjtj58a1421gsuup6o/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vYnkLx-SV5xTUqxuuPDMeiCtDixluOz3Yg9f5h1qEhNpUnIDqAdjjBuQ2AXOa4efbma6Zk3-dQzF3-6iCI-g3zwqSJpVopaT2EQOA5NDRAx3YuQBfqZ7DNvFc-MMQpq-qc12QRCNiVVjun38XxrcUb7PH0yL0c-j7-l7JgBELabs37c3gzg3mcAAaHcJA1sFa04?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3798386,39.4756349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centre de Cultura Contemporània Octubre</name>
+        <description><![CDATA[<img src="https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/c3o7snh3iplhl726nabunnb63c/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1va5AWMu8q4_NBEBLEALTTAPfwdtlfk7HHo2Yg9d6Yt50nvKKG_gvd0h_TQPxuSBNhplMAdSJWuzgBhH9_7LvPOoQxYd8tYsT814p4TZIMIRTITjWMCbIls_HJaZ_cd8PJ2b9-pIxyXHyhyPyvjngwCKWhjFcXoqQ2keRnQnAKJJrOkgsqnfUzJ7LIzHEKU6Oww?session=0&fife" height="200" width="auto" /><br><br>Des d'ací, continuant cap a la Llotja, per la façana posterior de la qual discorria la muralla, seguiria fins al carrer Sant Ferran núm. 12 i, en el Centre de Cultura Contemporània Octubre, es pot veure en el soterrani parteix del mur i una torre quadrada de 4,30 de costat datada en el segle XII.<br><br><img src="https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/9b0o51hn7ao2q8qeuknrksjuns/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vbMrVzOGTdMmdhfJLlbJeHKSbP5_wf8vyqp56_dTYlWylcYbCqXnOM_LN2zigkOxA5pOhgnVNsYZoOoqI7kc9Jk8OAWfIg6E4Xn2ON_rrr08kUSi_OZoRWAbHrubQR82l9dReWTfMWHM_ayWH6xu-5zLI3ap-_CEd-PWYh4cLEz1n5_gimy4HuKRSx_RlVdBd_E?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-seq2-0-10-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/c3o7snh3iplhl726nabunnb63c/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1va5AWMu8q4_NBEBLEALTTAPfwdtlfk7HHo2Yg9d6Yt50nvKKG_gvd0h_TQPxuSBNhplMAdSJWuzgBhH9_7LvPOoQxYd8tYsT814p4TZIMIRTITjWMCbIls_HJaZ_cd8PJ2b9-pIxyXHyhyPyvjngwCKWhjFcXoqQ2keRnQnAKJJrOkgsqnfUzJ7LIzHEKU6Oww?session=0&fife https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/9b0o51hn7ao2q8qeuknrksjuns/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vbMrVzOGTdMmdhfJLlbJeHKSbP5_wf8vyqp56_dTYlWylcYbCqXnOM_LN2zigkOxA5pOhgnVNsYZoOoqI7kc9Jk8OAWfIg6E4Xn2ON_rrr08kUSi_OZoRWAbHrubQR82l9dReWTfMWHM_ayWH6xu-5zLI3ap-_CEd-PWYh4cLEz1n5_gimy4HuKRSx_RlVdBd_E?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3772241,39.4730907,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Vicente / Mariano Benlliure</name>
+        <description><![CDATA[<img src="https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/324blbmkdtdb6u8ndju4e0eshk/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vZZgEAAm2GhRjU2XD7nfR34-SA9N-vdzKpTgjKXEggNSyqfsjnuKZDvk5Q4lmfxgT8r_sNaOd_N2lar7Qew2zvBNyLIFAMXXEbZ4qKOIhNpuSxMJ5Q18Y9INSyXywMbkcyDxbTKAtydaekKxftFzarpgqNao078aP9hkvWnfatyNl0w44ddEOUHck09mXqD2AEY?session=0&fife" height="200" width="auto" /><br><br>Seguint cap al carrer Sant Vicent on s'obriria la porta de la Boatella, la muralla s'endinsa per l'interior de les cases de la plaça de Mariano Benlliure, on en el restaurant Orio, l'accés del qual és pel carrer Sant Vicent núm. 23, s'ha integrat una torre de planta quadrada en el front de la qual es poden veure reutilitzats grans carreus d'època romana.<br><br><img src="https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/f7tv7gab4hpm2ikpkk2duohon8/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vbwV4S02wFEfGibmqkHe1JaTFFRHenwqRjaL1cITaThvYcQvhJgdOa-IPEjDpZ_942LLUjqXOAmFGaVXh9Zg2Frd9_REfo9CzeB-Yiwxt5qjVw59YP2XpJYJL31B3eYHaLwK_8rlT3gckuc_zJMaTt-rlBZvF9Bvxs6XwSw12NyfdXWbxyltqEhletRCG1qdJ84?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/lgdqcbpgesfo4hce2fjrfcqipg/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vbD9SMBg5pNSAveVQ76nv7fw_dlWDtkVyyQvoTYnNU9nLVkjxwt0eqXympISxnGxVJeCPrhwTuyDB_-ndE8mJGJR-JOZ_hRiZv08leSOdMeMqZ45FG2RKignMrBz0wIQC1z26ySHr-IJGujc2aKOdJdm91w8rdmFNKOOvG8U0-SMZSiZYXV24uuvuGaWDGe_p-e?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/v4a5fpr0t3es5b06h34a4v9onk/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vZPQ9DpSMCZS5GtC8RvpAgstkBnG_ripw5K--7AOfAI2zzaKU_xDj_YWa_zN6jQ3ugfANAZOux9I8-wlfr27f14FMOm74UbsAmdmfByIxwh3TcEU6jiVWB0iI-LEVS_xOYktXRccxpY90qOI3SCb-6HTw7I2cHpsiFZpSYlBn7Uu1owTRYFifZebjIll2YAe-ME?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-seq2-0-11-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/324blbmkdtdb6u8ndju4e0eshk/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vZZgEAAm2GhRjU2XD7nfR34-SA9N-vdzKpTgjKXEggNSyqfsjnuKZDvk5Q4lmfxgT8r_sNaOd_N2lar7Qew2zvBNyLIFAMXXEbZ4qKOIhNpuSxMJ5Q18Y9INSyXywMbkcyDxbTKAtydaekKxftFzarpgqNao078aP9hkvWnfatyNl0w44ddEOUHck09mXqD2AEY?session=0&fife https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/f7tv7gab4hpm2ikpkk2duohon8/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vbwV4S02wFEfGibmqkHe1JaTFFRHenwqRjaL1cITaThvYcQvhJgdOa-IPEjDpZ_942LLUjqXOAmFGaVXh9Zg2Frd9_REfo9CzeB-Yiwxt5qjVw59YP2XpJYJL31B3eYHaLwK_8rlT3gckuc_zJMaTt-rlBZvF9Bvxs6XwSw12NyfdXWbxyltqEhletRCG1qdJ84?session=0&fife https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/lgdqcbpgesfo4hce2fjrfcqipg/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vbD9SMBg5pNSAveVQ76nv7fw_dlWDtkVyyQvoTYnNU9nLVkjxwt0eqXympISxnGxVJeCPrhwTuyDB_-ndE8mJGJR-JOZ_hRiZv08leSOdMeMqZ45FG2RKignMrBz0wIQC1z26ySHr-IJGujc2aKOdJdm91w8rdmFNKOOvG8U0-SMZSiZYXV24uuvuGaWDGe_p-e?session=0&fife https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/v4a5fpr0t3es5b06h34a4v9onk/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vZPQ9DpSMCZS5GtC8RvpAgstkBnG_ripw5K--7AOfAI2zzaKU_xDj_YWa_zN6jQ3ugfANAZOux9I8-wlfr27f14FMOm74UbsAmdmfByIxwh3TcEU6jiVWB0iI-LEVS_xOYktXRccxpY90qOI3SCb-6HTw7I2cHpsiFZpSYlBn7Uu1owTRYFifZebjIll2YAe-ME?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3763129,39.472508,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carrer Transits</name>
+        <description><![CDATA[<img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/dmjossa8a35qs6ahqctqd3nhak/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1va95eOzvHXrMi1h1b4rfDQP33w0tDfnZA8psKYmA2tO4OXtBGlWAwLuz48GOEd7JX1LXimJeAprBmaTO-Ijl2Ka58Fa7CgUkcS71U75HsrRSAl2uZTkvr1Dyn0HQAGpERCGA7fRk0RiZKA8Ale8cLRxoIUTstE3cFyHTmgd_GPp_Uu2G2IhggaoyxAlneU0YNAJ?session=0&fife" height="200" width="auto" /><br><br>Des d'ací contínua el mur feia el carrer Tránsits on es torna a fer visible a l'altura del núm. 5-6, a l'interior d'una cafeteria]]></description>
+        <styleUrl>#icon-seq2-0-12-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/dmjossa8a35qs6ahqctqd3nhak/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1va95eOzvHXrMi1h1b4rfDQP33w0tDfnZA8psKYmA2tO4OXtBGlWAwLuz48GOEd7JX1LXimJeAprBmaTO-Ijl2Ka58Fa7CgUkcS71U75HsrRSAl2uZTkvr1Dyn0HQAGpERCGA7fRk0RiZKA8Ale8cLRxoIUTstE3cFyHTmgd_GPp_Uu2G2IhggaoyxAlneU0YNAJ?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3753741,39.4706797,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Papelería Sena Alós</name>
+        <styleUrl>#icon-seq2-0-13-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3751059,39.4706135,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Universitat</name>
+        <description><![CDATA[<img src="https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/hmjhjre9ekkma6hh15871ei90o/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vYSz-fTyluIAQEqv0l5JprQLIjbgnATfBP0XsP7HaFEcoFKWdjfJMCIvhfWmV33faLHNf6RNCU8z_JUdApKddfDGm6VnJ4O6teQQelaN7fiLhJZ2EaerVR-8GN0FVYeIhhh0yaRLNrpKLetkX6WtJ2w3jP9y1ncVPQLIeAE0GP9RIur3fDQOXmc8oEX9G_MneNe?session=0&fife" height="200" width="auto" /><br><br>Continuant pel carrer de les Barques s'arriba fins al carrer de Comèdies on la muralla marca un gir important cap al nord, endinsant-se per davall de l'edifici de la Universitat, en el vestíbul de la qual s'observa una altra de les torres quadrades. ]]></description>
+        <styleUrl>#icon-seq2-0-14-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/hmjhjre9ekkma6hh15871ei90o/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vYSz-fTyluIAQEqv0l5JprQLIjbgnATfBP0XsP7HaFEcoFKWdjfJMCIvhfWmV33faLHNf6RNCU8z_JUdApKddfDGm6VnJ4O6teQQelaN7fiLhJZ2EaerVR-8GN0FVYeIhhh0yaRLNrpKLetkX6WtJ2w3jP9y1ncVPQLIeAE0GP9RIur3fDQOXmc8oEX9G_MneNe?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.373003,39.4720235,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carrer del Mar</name>
+        <description><![CDATA[Des d'ací continuaria fins al carrer del Mar, on en un restaurant que dóna a la coneguda plaça dels Ànecs, es pot observar un xicotet fragment del mur unit a una de les parets del circ romà.]]></description>
+        <styleUrl>#icon-seq2-0-15-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3724558,39.4736674,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante Hotel Caro</name>
+        <description><![CDATA[<img src="https://doc-0o-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/i3man0d7mn4e8661dq7v4stk90/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vYGeqyGLTtSIWDtjXQJvmCBjX_9MXlonti5YsRYxz8qNxX_m4DzOdSw30whVo0nkJnvOD2Lap_dSrDE75f8D7fYXpTEEwM857vJIAbhvWyNevI4nJaUBN5GOw1aWjhcK-VPRDCveEWYm1j_LqKcrFCP5OFEjWeNOdKjb1qqYrimhwyDx2gsCmEuTalxV2NhzR4?session=0&fife" height="200" width="auto" /><br><br>Pel carrer de Trinquet de Cavallers fins a arribar a l'altura de l'edifici de l'hotel Car al carrer del Almudín, on integrat en el mateix i en el restaurant annex, es pot veure un extens tram del llenç<br><br><img src="https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/2a9df2u5s4r4ehg2ntvh4ok7vc/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vbLwsBVfaszTMo1uxKlnd0bY0OYNtsnRuAOI2K2o1-Rk3rKUVuTam6CITQ-byqJ4JeAqqvXidSFvr5eUAc89hn9_7N6dPT69pm9J-NzvohrNyEExlcqZWpoIbGSo6osrqsWMMxix8SaMXYMPGa4uTdTsvlABpVubm3_ekPTdEAi4sAa9dLW5ZzRxoTBTDhjjwQ?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-seq2-0-16-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0o-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/i3man0d7mn4e8661dq7v4stk90/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vYGeqyGLTtSIWDtjXQJvmCBjX_9MXlonti5YsRYxz8qNxX_m4DzOdSw30whVo0nkJnvOD2Lap_dSrDE75f8D7fYXpTEEwM857vJIAbhvWyNevI4nJaUBN5GOw1aWjhcK-VPRDCveEWYm1j_LqKcrFCP5OFEjWeNOdKjb1qqYrimhwyDx2gsCmEuTalxV2NhzR4?session=0&fife https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/2a9df2u5s4r4ehg2ntvh4ok7vc/1657907100000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vbLwsBVfaszTMo1uxKlnd0bY0OYNtsnRuAOI2K2o1-Rk3rKUVuTam6CITQ-byqJ4JeAqqvXidSFvr5eUAc89hn9_7N6dPT69pm9J-NzvohrNyEExlcqZWpoIbGSo6osrqsWMMxix8SaMXYMPGa4uTdTsvlABpVubm3_ekPTdEAi4sAa9dLW5ZzRxoTBTDhjjwQ?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3719194,39.4758952,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palau del Temple</name>
+        <description><![CDATA[Una altra de les torres de planta quadrada que s'endinsa en el contigu edifici del palau del Temple. Ací, durant les obres de restauració s'han tret a la llum la muralla, altres dues torres i part del antemural o barbacana.]]></description>
+        <styleUrl>#icon-seq2-0-17-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3714527,39.4760443,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

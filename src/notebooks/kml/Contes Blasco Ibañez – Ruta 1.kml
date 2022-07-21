@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Contes Blasco Ibañez – Ruta 1</name>
+    <description>La primera ruta de Contes de Blasco Ibañez permet redescobrir espais existents com la plaça de bous i uns altres ja desapareguts com la porta de Sant Vicent i el penal de Sant Agustín, fins i tot uns altres en els solars del qual hi ha edificacions amb usos molt diferents, cas de la presó de Sant Gregori. Des d’allí, i seguint el carrer de les Barques, arribarem fins a l’església del Patriarca per a donar finalment amb el Pouet de Sant Vicent</description>
+    <Style id="icon-seq2-0-0-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-0-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-0-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-0-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-0-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-1-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-1-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-1-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-1-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-1-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-2-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-2-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-2-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-2-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-2-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-3-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-3-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-3-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-3-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-3-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-4-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-4-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-4-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-4-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-4-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-5-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-5-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-5-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-5-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-5-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-6-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-7.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-6-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-7.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-6-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-6-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-6-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-7-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-8.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-7-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-8.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-7-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-7-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-7-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-8-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-9.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-8-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-9.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-8-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-8-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-8-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-9-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-10.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-9-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-10.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-9-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-9-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-9-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Contes Blasco Ibañez - Ruta 1</name>
+      <Placemark>
+        <name>Plaça de Bous</name>
+        <description><![CDATA[<img src="https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/t283aahl26poshfei5oe8prm18/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vb-wy62O4AG-ZTroDmXjbp0poLg9An7EqcrxyzCssiJsydKd-7oODn2JGieW0pa4yHbqkDJI_rFS59ve6EmTyC59JZRRAqxclbCA7upYM6DdhLXFnUgwNWvYKqIkCIsC6DpFA5LeKNdHCRqf77BPa0BhPANM93qz4lnK3D4iQx7Ff-yqQxFK4xRKsZZBE5e_9Y?session=0&fife" height="200" width="auto" /><br><br>En aquest itinerari, arribarem al centre històric de la ciutat partint des del sud. Com a referent ens serveix el conte «Un hallazgo», en el qual el reu Magdalena, després d’eixir de la presó, és “reclutat” pel feroç Chamorra per a cometre un robatori, aprofitant que els amos de l’habitatge podrien estar assistint a una correguda de bous. Estarien, doncs, en el cus del carrer Xàtiva, lloc que va obrir les seues portes per primera vegada a l’espectacle taurí el 22 de juny de 1859. Fins llavors els afeccionats a la festa havien hagut d’acudir a la plaça del Mercat o a altres places de la ciutat on s’alçaven construccions desmuntables. Però per iniciativa del governador Melchor Ordóñez, en 1850 va començar a construir-se la plaça actual, segons el projecte de Sebastián Monleón Estellés, en el lloc on prèviament hi havia hagut un altre cus sense acabar de construir.<br><br>Declarat Monument Històric Artístic Nacional en la dècada dels 80, l’edifici està inspirat en l’amfiteatre de Nimes, i la seua factura neoclàssica es complementa amb l’estil neomudéjar recognoscible en la rajola cara vista usat per a realitzar els 384 arcs (escarsers en la planta baixa, i de mig punt en els tres pisos superiors) que s’obrin en la seua façana.<br><br>Blasco Ibáñez va acudir com a espectador a les graderies de la plaça de bous en poques ocasions. Al llarg de la seua vida va mantenir una actitud ambigua cap a la tradició taurina, encara que les pinzellades amb què descriu aquest espectacle en la novel·la Sagne i arena no li representen ni molt menys com un afeccionat entusiasta.]]></description>
+        <styleUrl>#icon-seq2-0-0-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/t283aahl26poshfei5oe8prm18/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vb-wy62O4AG-ZTroDmXjbp0poLg9An7EqcrxyzCssiJsydKd-7oODn2JGieW0pa4yHbqkDJI_rFS59ve6EmTyC59JZRRAqxclbCA7upYM6DdhLXFnUgwNWvYKqIkCIsC6DpFA5LeKNdHCRqf77BPa0BhPANM93qz4lnK3D4iQx7Ff-yqQxFK4xRKsZZBE5e_9Y?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3761198,39.4666255,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Porta de San Vicent</name>
+        <description>Pel mateix carrer Xàtiva, prosseguim cap a l’oest, fins a creuar-nos en la ruta que suposadament seguia el protagonista del conte «El femater». Recordem que, sent molt xiquet, Nelet era enviat a la ciutat per a arreplegar fem i contribuir, d’aqueixa manera, a la supervivència familiar. Procedia de l’horta del sud de València, i en el seu avanç havia de topar-se amb la porta de Sant Vicent. Situada enfront de l’església de Sant Agustín, en el que avui és la plaça del mateix nom, era una de les dotze portes (dels quatre portals grans) que s’obrien en la vella muralla cristiana de la ciutat. Açò és, entre 1356 i 1370, mantenint-se com a protecció la primitiva muralla islàmica, es va construir una altra fortificació (amb un perímetre de 4 km) que incorporara els nous ravals i les portes dels quals permetien una millor comunicació. La de Sant Vicent es configurava com una torrassa amb porta dintelada que va ser derruït l’any 1830. La vindria a substituir una altra amb tres buits, sobre la qual es van col·locar les escultures de Sant Vicent Màrtir i Sant Vicent Ferrer, orientades en adreça inversa i realitzades per l’artista d’origen francés Carlos José Cloostermans.</description>
+        <styleUrl>#icon-seq2-0-1-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3797854,39.4681188,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Presó de Sant Agustín</name>
+        <description><![CDATA[<img src="https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/4bmg9kd09rpeaajqnj1gfbrmjo/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vaNHjDGhdDay9x-etrhGfacGFOt_Pd9cWMoeGsGDma309tP7gvArRpKQZDKwhw6cmd0QsjD03xm30qysLpiTu_jeKktxb1EsDH6QvsjZ_hwPmxVBMVb_wx7u-YvkUbaIWfwkn-OvWVINVE6B5eZ8nSjd1AhzYbjMCykUYgohEEWOlsMPTQZl-n2wwcu_FA00CA?session=0&fife" height="200" width="auto" /><br><br>En els voltants de la plaça de Sant Agustín, més concretament al costat de l’església del mateix nom i el solar de l’edifici d’Hisenda (carrer Guillem de Castro), s’assentava un altre espai, ja desaparegut (es va demolir en 1904), que s’esmenta en el conte «Guapeza valenciana». Els germans Bandullo i Pepet, després de decidir signar les paus, marxen a compartir una paella en una alquería del camí de Burjassot. Els acompanyen altres “bonics” i “valents”, encara que tots lamenten l’absència d’altres col·legues de professió que han acabat en presidi. Aqueixa era la funció que va exercir durant una època el monestir de San Miguel dels Reis, actual seu de la Biblioteca Valenciana, i també va acabar tenint un edifici religiós com el convent de Sant Agustín.<br><br>Va ser construït durant el segle XIV, i tenia dos claustres, la qual cosa denota les seues grans dimensions. Però, a conseqüència de la desamortització de Mendizábal, es va convertir en penal, sent els propis reus els qui s’ocuparien de la seua reforma, doncs en 1812 va ser utilitzat com a caserna per les tropes napoleòniques i les instal·lacions es trobaven bastant deteriorades. L’escassa altura dels seus murs exteriors i les escasses condicions de seguretat, que propiciaven les fugides repetides dels presos, aconsellaven la seua venda per a construir un nou recinte carcerari. No obstant açò, després de la seua demolició, en l’espai que ocupava es va instal·lar el primer mercat de proveïments de la ciutat.]]></description>
+        <styleUrl>#icon-seq2-0-2-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/4bmg9kd09rpeaajqnj1gfbrmjo/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vaNHjDGhdDay9x-etrhGfacGFOt_Pd9cWMoeGsGDma309tP7gvArRpKQZDKwhw6cmd0QsjD03xm30qysLpiTu_jeKktxb1EsDH6QvsjZ_hwPmxVBMVb_wx7u-YvkUbaIWfwkn-OvWVINVE6B5eZ8nSjd1AhzYbjMCykUYgohEEWOlsMPTQZl-n2wwcu_FA00CA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.38062,39.4691068,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cafetín del Cubano</name>
+        <description>Una altra vegada el conte «Guapeza valenciana» ens serveix per a transitar des de la plaça de Sant Agustín a l’avinguda de l’Oest. Amb prou faenes penetrem en ella, en la cantonada dels carrers La nostra Senyora de Gracia i del Gravador Selma, donem amb el lloc on va estar situat aqueix cafetín al que al·ludeix el narrador i que per la naturalesa dels seus clients no havia de ser un establiment de molt bona reputació. Aquest local de begudes ja desaparegut estava obert anys abans de la seua reforma en 1903, any en què s’anunciava en El Poble, destacant el preu econòmic dels seus licors i, especialment, la qualitat de les seues botelles de absenta i vermut. Al setembre de 1907, no obstant açò, en el mateix diari es publicitaba el traspàs del negoci.</description>
+        <styleUrl>#icon-seq2-0-3-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -0.379711,39.4697238,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Convent de Sant Gregori</name>
+        <description><![CDATA[<img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/ta3auiknoppq3e0k23t0thdvc8/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vYDIer6vk1QluQJOlNXv5cbLyJYMqJzHA5NyKuAGzBqTXwPV29nXgYupIug-zP7TCxtuJibK4Huche4ri-8K0bL7aMzlgQjdIMBo2G507z0MIqwt03Gt7Y849SRRb9TfJQoifjlcVP-2lG4UNzD7DSiTFhUlWvoe5o9YDDE8an67aINXoeLUHvyFEE1P6Z_pWk?session=0&fife" height="200" width="auto" /><br><br>Connectant amb el carrer Sant Vicent Màrtir, en adreça nord arribarem al lloc on actualment s’alça un dels teatres més populars de la ciutat. Per atzars de la destinació, en el solar que ocupa el Olympia estava situat un penal on Blasco Ibáñez va estar empresonat en diverses ocasions pels seus articles i campanyes periodístiques contra el règim de la Restauració. És cert que dins del recinte la seua situació era molt millor que la que patia el reu Magdalena en el conte «Una troballa», però les seues impressions sobre l’estat de Sant Gregori s’ajustaven a la realitat.<br><br>Després de la desamortització de Mendizábal es va convertir a la presó un edifici que havia tingut una llarga història. Els seus orígens estan vinculats amb l’intent de traure del carrer a les «dones públiques pecadoras» (s. xiv). A mitjan xvi aquestes dones eren conduïdes en determinades festivitats fins a la Casa de Penedides, amb una finalitat caritativa i tendent a fomentar la seua reinserció. Però conforme es van ser imposant les doctrines de la Contrareforma, la Casa es va transformar en convent (1601), oferint a les penedides l’opció de dedicar-se a la vida religiosa.<br><br>El convent-penal de Sant Gregorio es va derrocar l’any 1911, coincidint amb la inauguració de la Presó modele. En el seu lloc, anunciava la premsa de l’època, «està projectat construir una poma de cases modernes per a revitalitzar aquesta cèntrica zona. Igualment es pensa edificar un teatre que serà batejat amb el nom de Olympia» (Les Províncies).]]></description>
+        <styleUrl>#icon-seq2-0-4-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/ta3auiknoppq3e0k23t0thdvc8/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vYDIer6vk1QluQJOlNXv5cbLyJYMqJzHA5NyKuAGzBqTXwPV29nXgYupIug-zP7TCxtuJibK4Huche4ri-8K0bL7aMzlgQjdIMBo2G507z0MIqwt03Gt7Y849SRRb9TfJQoifjlcVP-2lG4UNzD7DSiTFhUlWvoe5o9YDDE8an67aINXoeLUHvyFEE1P6Z_pWk?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.378048,39.4708419,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carrer de les Barques</name>
+        <description><![CDATA[A pocs metres de distància del carrer Sant Vicent, es troba la plaça del Ajuntament, que creuarem per a arribar al carrer de les Barques. Va haver-hi un temps en què, si no es tenia la valentia de personatges com el “bonic” Pepet, del conte «Guapeza valenciana», podia ser perillós transitar per aquesta via. Era un carrer que limitava amb l’antic barri de Pescadors, zona on antany es va instal·lar la gent que vivia de la pesca i els calafates, però que progressivament es va ser transformant en un lloc on es van situar cafetines, tavernes i prostíbuls, i amb açò van començar a ser freqüents les baralles, escàndols i crims, fins que, en 1907, es va procedir a la demolició del barri i la seua reordenació urbana.<br><br>Aquest carrer, també coneguda en un altre temps com de Vall Cubert (en passar per allí una sèquia que transportava les aigües residuals de la ciutat: el Valladar), era més llarga que en l’actualitat: arrancava en la plaça del Ajuntament i es remuntava fins a les proximitats de la plaça d’Alfons el Magnànim.<br><br>En el número 30 d’aquesta via es trobava la llibreria de vell de Francisco Sempere, qui va ser amic i soci editorial de Blasco Ibáñez. Quasi immediat a aquest establiment, estava el Cafè Español o d’Iborra, en la cantonada del carrer de les Barques i Pascual i Genís, lloc des del qual un grup de seguidors de Rodrigo Soriano va perpetrar un atemptat contra el novel·lista l’11 de setembre de 1905.]]></description>
+        <styleUrl>#icon-seq2-0-5-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3758075,39.4703885,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pujada de la Morera</name>
+        <description><![CDATA[<img src="https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/mdj8j6d1vtevvgn8kkih1h6t5g/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vbGHLMQKqrdLwULR9XiH3YDPE9Bqmr-Zqczt0LGfJC0kGSB288ePXfNC8PBY0UqC5f6JMRhn-BRN1A44rzWKHvlWe9zc8QnPE6o5C5F3Wsgy_ySV19bE-SFUJNE-hjZG7H6XTUL8Z22zVeAc59CKg4FxwNeQKs9H9kE4QDPxWajlwg1nxhJDyJU3QT6dvA9aLc?session=0&fife" height="200" width="auto" /><br><br>Just enfront de l’esmentat Cafè Español, es trobava un dels llocs avui dia més transitats de la ciutat i on era abatut el protagonista del conte «Guapeza valenciana» pels germans Bandullo. Ens estem referint a la pujada de la Morera, un espai immediat on s’alça en l’actualitat l’edifici del Banc de València (La Caixa), a l’altre costat del teatre Principal. Ja en documents del segle xiv es parla de l’existència d’una morera que limitava amb la casa d’un tal Pere Puig, per la qual cosa el lloc on es trobava rebia el nom de plaça de la Morera de Pere Puig. Quan el vell arbre es va talar en 1767, en el seu lloc es va plantar una altra morera que sobreviuria fins a l’últim terç del XIX. Aquesta segona morera va conèixer, per tant, com la plaça de Pere Puig es convertia en de les Barques i en ella estava la font de les tres Gràcies, desplaçada amb el temps a la plaça de Rodrigo Botet.]]></description>
+        <styleUrl>#icon-seq2-0-6-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/mdj8j6d1vtevvgn8kkih1h6t5g/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vbGHLMQKqrdLwULR9XiH3YDPE9Bqmr-Zqczt0LGfJC0kGSB288ePXfNC8PBY0UqC5f6JMRhn-BRN1A44rzWKHvlWe9zc8QnPE6o5C5F3Wsgy_ySV19bE-SFUJNE-hjZG7H6XTUL8Z22zVeAc59CKg4FxwNeQKs9H9kE4QDPxWajlwg1nxhJDyJU3QT6dvA9aLc?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3738227,39.4704961,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Domicili Blasco Ibañez</name>
+        <description>En el número 14 del carrer Don Juan de Austria, Blasco Ibáñez va instal·lar en 1894 el seu domicili i la redacció del diari El Poble, per la qual cosa coneixia molt bé el barri de Pescadors.</description>
+        <styleUrl>#icon-seq2-0-7-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -0.373239,39.4702813,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Col·legi del Patriarca </name>
+        <description><![CDATA[<img src="https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/l3ok63r90ard1b634el2jppujg/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vZNhazg0mJNkJdbNBL9JioKbpy8VanfU8c1tWIPImG9jHDlNuvyKmdRXI4YmD_JFlruFgCZEY4NrDOVA8yVsT0Pti8MUbcV75yzX3FLyC8qHm5rgdDKIyXvD8VNVREDxP708d-Wg5cG3PrC4Xwb0Io-PdSc5FLO7pAFbXY9Rkzt-EEZTJZ0ES0swPfndq7seQY?session=0&fife" height="200" width="auto" /><br><br>Prenent com a referència les primeres línies del conte «El drac del Patriarca», dirigim a continuació els nostres passos cap al carrer de la Nau, per a arribar fins al Col·legi Seminari del Patriarca, conegut també com a Real Col·legi del Corpus Christi. Declarat Monument Històric Artístic Nacional en 1962, aquesta edificació va ser promoguda per Juan de Ribera, arquebisbe i virrey de València, que va voler fundar un seminari per a la formació de sacerdots segons les pautes de la Contrareforma i, a més, va intervenir directament en el disseny del projecte arquitectònic i en l’elecció dels artistes i constructors que intervindrien en la seua construcció.<br><br>El col·legi es va alçar en amb prou faenes vint-i-quatre anys (1586-1610), i malgrat que la seua façana transmet una sensació d’austeritat, en el seu interior es guarden valuosos tresors. Són dignes d’esment els frescs de Bartolomé Matarana per a la seua església i el claustre renaixentista, de Guillén del Rei, amb columnes de marbre genovés. Però no han d’oblidar-se els continguts del seu arxiu, ni les obres pictòriques de Ribalta, el Greco o Joan de Joanes que alberga el seu museu o els esplèndids tapissos restaurats recentment i que engalanen la Capella dels Tapissos.<br><br>Amb tot, una de les curiositats de l’edifici és el caiman disecado que, com diu el narrador del conte citat, està penjat en el mur de l’esquerra de l’atri o vestíbul i va donar pábulo a la creació d’una llegenda amb accents quasi èpics.]]></description>
+        <styleUrl>#icon-seq2-0-8-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/l3ok63r90ard1b634el2jppujg/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vZNhazg0mJNkJdbNBL9JioKbpy8VanfU8c1tWIPImG9jHDlNuvyKmdRXI4YmD_JFlruFgCZEY4NrDOVA8yVsT0Pti8MUbcV75yzX3FLyC8qHm5rgdDKIyXvD8VNVREDxP708d-Wg5cG3PrC4Xwb0Io-PdSc5FLO7pAFbXY9Rkzt-EEZTJZ0ES0swPfndq7seQY?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3733447,39.4723669,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pouet de Sant Vicent</name>
+        <description><![CDATA[<img src="https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/jddcprktplp2bm0h7tk94728bk/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vZo0HHFNAOe_b3Dw-d6rwV6jKP2iTK4HnIsKT9KXlS2aSejbiF-rwL9sqCbw-sBqPt_GaYbTRxaEMelIpM2lrKlSVMbKJllAQ12Dsgs3oqvcZwVTSBYrH06KC-Al9kulKOdiXjgK_LJ52msDdmm6X4YGkQp8y5kIfvDokVZI77oIVooT4SwqJz4rX0ehSoiHqA?session=0&fife" height="200" width="auto" /><br><br>Per a arribar a l’última parada d’aquest primer itinerari, avancem pel carrer de la Nau fins a la plaça d’Alfons el Magnànim, des d’on, creuant el carrer de Paz, aconseguirem la del Mar. La nostra destinació és la casa natal del patró de València, Sant Vicent Ferrer, compresa entre el citat carrer del Mar i la del Pouet. D’aquest edifici, esmentat com una autèntica institució per als valencians en el conte «L’últim lleó», no queda més que el solar on s’alça la nova edificació de mitjan el segle XX, en estil neogòtic. En el nou edifici sobreixen espais com el vestíbul, en les parets del qual es representen escenes diverses dels miracles atribuïts a Sant Vicent, plasmades gràficament en els taulells ceràmics de Manises del segle XVIII. Aquesta dimensió religiosa és la que eclipsa el possible valor històric d’una casa que en el seu moment va pertànyer al gremi dels boneteros o a l’ordre dels dominicos. La pietat cristiana reivindica els portentosos miracles del sant, i entre ells sobreix el relacionat amb l’antic pou que hi havia en la casa familiar. És el de “la sabateta”, mitjançant el qual el xiquet Vicent va provocar la pujada de l’aigua del pou fins al seu bord perquè poguera recuperar un amic seu la sabata que li havia caigut en el fons. Segons la tradició, les aigües d’aquell pou eren inesgotables i fins i tot podien ser consol per als afligits.]]></description>
+        <styleUrl>#icon-seq2-0-9-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/jddcprktplp2bm0h7tk94728bk/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vZo0HHFNAOe_b3Dw-d6rwV6jKP2iTK4HnIsKT9KXlS2aSejbiF-rwL9sqCbw-sBqPt_GaYbTRxaEMelIpM2lrKlSVMbKJllAQ12Dsgs3oqvcZwVTSBYrH06KC-Al9kulKOdiXjgK_LJ52msDdmm6X4YGkQp8y5kIfvDokVZI77oIVooT4SwqJz4rX0ehSoiHqA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3714242,39.4730812,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

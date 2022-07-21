@@ -1,0 +1,9 @@
+notebook
+pandas
+numpy
+matplotlib
+seaborn
+selenium
+beautifulsoup4
+webdriver-manager
+lxml

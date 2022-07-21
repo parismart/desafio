@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta Cultural Anell Ciclista</name>
+    <description>L’anell ciclista de la ciutat permet gaudir al seu pas d’edificis i llocs emblemàtics de la ciutat. Tot un gust anar amb bicicleta i poder amarar-se de la cultura i la història de la ciutat de València.</description>
+    <Style id="icon-seq2-0-0-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-0-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-0-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-0-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-0-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-1-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-1-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-1-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-1-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-1-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-10-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-11.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-10-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-11.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-10-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-10-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-10-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-11-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-12.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-11-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-12.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-11-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-11-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-11-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-12-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-13.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-12-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-13.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-12-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-12-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-12-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-13-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-14.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-13-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-14.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-13-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-13-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-13-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-14-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-15.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-14-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-15.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-14-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-14-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-14-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-2-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-2-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-2-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-2-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-2-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-3-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-3-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-3-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-3-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-3-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-4-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-4-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-4-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-4-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-4-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-5-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-5-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-5-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-5-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-5-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-6-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-7.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-6-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-7.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-6-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-6-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-6-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-7-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-8.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-7-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-8.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-7-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-7-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-7-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-8-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-9.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-8-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-9.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-8-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-8-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-8-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-9-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-10.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-9-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-10.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-9-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-9-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-9-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Ruta Cultural Anell Ciclista</name>
+      <Placemark>
+        <name>Font de Neptú</name>
+        <description><![CDATA[Plaça d’Alfons el Magnànim. Parterre, cantonada amb el carrer Poeta Quintana<br><br>Es va fer per a adornar l’hort de Pontons, un riquíssim canonge de la Catedral del segle XVII. Aquesta escultura barroca representa al déu Neptú (conegut també com Posidó en la mitologia grega), déu del mar que governa totes les aigües i mars amb el seu trident, causant temporals. Als seus peus hi ha un gran peix monstruós (al·legoria d’un dofí). Es va instal·lar en La Glorieta en el Segle XIX i en 1960 es va traslladar a la seua actual ubicació en el Parterre.]]></description>
+        <styleUrl>#icon-seq2-0-0-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3706328,39.4715447,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Estatua eqüestre de Jaume I</name>
+        <description><![CDATA[L’element més destacat dels Jardins és el monument erigit en honor de Jaime I, de finals del segle XIX. És una monumental estàtua eqüestre feta de bronze procedent dels canons del castell de Peníscola, que magnifica la figura del Rei En Jaume.<br><br>Les estàtues eqüestres van gaudir de gran prestigi en el món romà, i servien per a glorificar als emperadors o als herois. L’única que es conserva d’aquesta època és la de Marco Aurelio, en la ciutat de Roma.<br><br>Existeix el fals mite que la posició de les potes del cavall indica la forma de morir del protagonista de l’estàtua. Segons aquesta llegenda, hauria mort el Rei Jaume I per ferides de guerra, la qual cosa sabem que no és veritat.]]></description>
+        <styleUrl>#icon-seq2-0-1-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3705738,39.4719071,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Porta de la Mar</name>
+        <description><![CDATA[Va ser dissenyada per l’arquitecte Javier Goërlich com a monument als caiguts en els anys 40 del passat segle. És una reproducció de la vella Porta del Real, que estava enfront del pont del Real, i donava pas al desaparegut Palau del Real. Es va destruir juntament amb les muralles a la fi del segle XIX.<br><br>Té l’aspecte d’un arc del triomf i, encara que conserva la creu, la Llei de Memòria Històrica l’ha desproveït de les làpides laudatories del franquisme.<br><br>Destaquen en la rematada de les seues façanes el ratpenat, símbol de la Ciutat, i frisos amb cavalls, i àguiles coronant cascos guerrers.<br><br>El ratpenat, present en l’escut de la ciutat, en les ensenyes dels clubs de futbol i en històriques associacions culturals, són mamífers voladors, molt importants en el manteniment dels ecosistemes i per a la salut pública i estan protegits per la llei, doncs són uns voraços insectívors i les seues poblacions són molt importants per a controlar les plagues de mosquits, transmissors de moltes malalties, per exemple, la malària, que va ser una malaltia endèmica de València durant molts segles.<br><br>Explica la llegenda que, en l’època de la reconquesta del rei Jaume I, durant el setge a la ciutat de València, ho van despertar uns sorolls que feien els ratpenats i va descobrir que l’exèrcit moro estava intentant un atac sorpresa, els quals es van retirar en ser descoberts.]]></description>
+        <styleUrl>#icon-seq2-0-2-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3685353,39.4720934,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casa dels Dracs (Casa Cortina)</name>
+        <description><![CDATA[Carrer Sorní, cantonada amb carrer Jorge Juan<br><br>Construït en 1901 per l’arquitecte Cortina com a habitatge per al seu pare, va ser un dels edificis més luxosos i avançats de l’Eixample en la seua època.<br><br>La seua façana, plena de simbologia, d’un depurat estil modernista, està inspirat fortament per l’obra de Gaudí i està catalogat com Bé de Rellevància Local.<br><br>En diversos punts de la façana figuren fardatxos, salamandres i dracs com a motius ornamentals d’aquesta, com a suport de mènsules o en la coronació de l’element central del xamfrà, que li atorguen el sobrenom de “dracs” al conjunt de la construcció.]]></description>
+        <styleUrl>#icon-seq2-0-3-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3698764,39.4701844,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carrers</name>
+        <description><![CDATA[Plaça dels Pinazo<br><br>Escultura en bronze amb pàtina, que recorda la terracota, sobre un pedestal cúbic, de l’artista Elena Nogueroles. És una denúncia sobre l’abandó d’animals i un homenatge a les persones que es dediquen a cuidar-los.<br><br>L’escultura, regalada per l’artista a la ciutat de València, es va inaugurar el dia 3 de març de 2018. El gos porta gravat el nom de Tristán i la gata, el de Soledad.<br><br>Té un poema gravat en valencià i en castellà, en referència al tema.]]></description>
+        <styleUrl>#icon-seq2-0-4-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3709219,39.470046,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Edifici de la Unió i el Fènix</name>
+        <description><![CDATA[Es va inaugurar durant la II República. Destaca una important façana que es remata amb un templet de columnes coronat per un àguila amb les ales desplegades, sobre les quals reposa un home jove. L’estàtua original és obra de 1911 de l’escultor francés Saint-Marceau.<br><br>Encara que és l’emblema de la famosa companyia d’Assegurances, en realitat no representa l’Au Fènix. La composició escultòrica presenta un home jove recolzat sobre les ales de l’àguila i alçant un braç en l’aire. Sembla ser una al·legoria de Ganímedes, personatge de la mitologia grega, símbol de l’eterna joventut. Aquesta escultura és una rèplica de la qual corona l’edifici de la seu de Madrid, Barcelona, Màlaga, Alacant i d’altres llocs d’Espanya.]]></description>
+        <styleUrl>#icon-seq2-0-5-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3768416,39.4676718,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Estació de Renfe</name>
+        <description><![CDATA[Carrer Xàtiva<br><br>És una estació terminal de caràcter monumental i d’estil modernista valencià, inaugurada en 1917 i obra de l’arquitecte Demetrio Ribes. Declarada Bé d’Interès Cultura (BIC).<br><br>Destaca per la seua riquesa ornamental i les seues grans proporcions. En el centre de la façana, sobre el gran rellotge, crida l’atenció una gran bola de bronze, representant l’orbe, sobre la qual desplega les seues ales un àguila realitzada amb gran realisme, símbol de la velocitat.]]></description>
+        <styleUrl>#icon-seq2-0-6-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3772064,39.4669926,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Antic Celler</name>
+        <description><![CDATA[Carrer de Guillem de Castro, 31<br><br>Va ser un antic celler. És un edifici de principis del segle XX i en la seua façana mostra quatre medallons amb gossos recolzats en barrils.]]></description>
+        <styleUrl>#icon-seq2-0-7-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3817715,39.468907,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Guerrer de Moixent. Jardins de l'Hospital]]></name>
+        <description><![CDATA[Carrer Guillem de Castro<br><br>Les representacions dels cavalls són les mostres més antigues de la animalística en l’art europeu. Aquesta escultura és una rèplica de l’exemplar arqueològic que es troba en el Museu de Prehistòria i es va col·locar en 1982, quan es va inaugurar el Jardí de l’antic Hospital. L’original, que és de xicoteta grandària, 7,5 cm. Es tracta d’un exvot que representa un genet i es va trobar en el jaciment ibèric de la Bastida dels Alcuses, a Moixent. La seua datació es remunta al segle V abans de Crist.<br><br>Representa a un guerrer ibèric armat amb espasa, escut i casc muntat en un cavall.]]></description>
+        <styleUrl>#icon-seq2-0-8-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3825547,39.4702487,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Font dels Somormujos</name>
+        <description><![CDATA[Plaça de Vicente Iborra<br><br>De factura francesa, la va adquirir el municipi en 1851 per a celebrar el naixement de la Princesa d’Astúries. Es va instal·lar primer en la Plaça del Mercat i després en L’Albereda, fins a 1967, que es va instal·lar en la seua ubicació actual. El seu estil segueix els corrents naturalístiques de l’època. Destaquen dues aus aquàtiques, els somormujos, envoltats d’abundant vegetació, entre la qual apareixen altres animals aquàtics, com a granotes, tortugues i peixos, que apunten entre el fullatge, amb gran fidelitat als models zoològics.<br><br>Els somormujos, també anomenats zampullines, són aus que podem veure en L’Albufera i altres aiguamolls d’Europa. S’alimenten d’insectes, peixos, granotes i rèptils que cacen amb el seu bec afilat. Canvien de plomatge en les estacions i, en el plomatge d’estiu, que és l’època del festeig, presenten unes extensions de plomes als costats del cap a manera de “trosses”.]]></description>
+        <styleUrl>#icon-seq2-0-9-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3814598,39.4770432,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Asil de Sant Joan Baptista</name>
+        <description><![CDATA[Carrer Guillem de Castro, 175<br><br>Obra de principi del Segle XX, es va fundar a costa del mercader seder Juan Bautista Romero, que va perdre al seu fill a una edat primerenca, a fi de donar ensenyament i acolliment als xiquets pobres. En el frontó hi ha una imatge al·legòrica de Jesús Maestro, i en un lateral podem veure una palmera i un “suposat” gos bordant al cel.]]></description>
+        <styleUrl>#icon-seq2-0-10-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3835671,39.4794055,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Torres de Serrans</name>
+        <description><![CDATA[Les torres de Serrans van ser una de les principals portes de la muralla baixmedieval, de finals del segle XIV. El nom de Serrans es deu al fet que rebia als viatgers procedents de la zona de regió muntanyenca. Va tenir diversos usos, des de defensa de la ciutat, presó i fins a magatzem dels quadres del Museu del Prat durant la seua estada a València, en la Guerra Civil.<br><br>Una de les gàrgoles representa un lleó amb un xiquet entre les seues arpes. Les gàrgoles servien per a desguassar els nivells superiors de les Torres. En les mènsules de l’escala hi ha dracs i diversos animals mitològics.]]></description>
+        <styleUrl>#icon-seq2-0-11-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3758747,39.4791399,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palau del Temple</name>
+        <description><![CDATA[Seu de la Delegació de Govern<br><br>Ho va manar construir Carlos III, entre 1761 i 1770, per a albergar la Seu de l’Ordre de Montesa, després que un terratrèmol assolara el castell titular de l’Ordre. Directament vinculat a la cort, és d’estil típic del neoclassicisme italià.<br><br>Un dels elements ornamentals més importants és l’escut de Carlos III, en la façana de l’Església, orlat amb el collaret del Toisó d’Or, la més alta condecoració de la casa de Borbó. El Toisó és un carner penjant que fa referència a la llegenda mitològica de “Jasón y el vellocino d’or”.]]></description>
+        <styleUrl>#icon-seq2-0-12-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -0.371093,39.4764398,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Església Castrense de Santo Domingo</name>
+        <description><![CDATA[Plaça de Tetuán<br><br>A l’antic convent gòtic de Santo Domingo se li va afegir, a la fi del segle XVI, una nova portada renaixentista a l’església, en la façana de l’actual Plaça de Tetuán. Sobre la portada hi ha un enorme timpà semicircular en el qual s’observa l’escut de l’Ordre dels Dominicos amb dos gossos dogos com a suport, animals emblemàtics de l’ordre. El papa Gregorio IX els va encomanar la persecució dels heretges, i, per la seua especial dedicació a aquesta tasca, prompte van rebre l’àlies de “Domini Canes” (gossos del Senyor). A l’interior del timpà, es troba dues lletres: D i F, que signifiquen “Dominicanus Fratres” (frares dominicans).]]></description>
+        <styleUrl>#icon-seq2-0-13-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3695303,39.4743082,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Font de Tritó</name>
+        <description><![CDATA[Plaça de Tetuán<br><br>A l’antic convent gòtic de Santo Domingo se li va afegir, a la fi del segle XVI, una nova portada renaixentista a l’església, en la façana de l’actual Plaça de Tetuán. Sobre la portada hi ha un enorme timpà semicircular en el qual s’observa l’escut de l’Ordre dels Dominicos amb dos gossos dogos com a suport, animals emblemàtics de l’ordre. El papa Gregorio IX els va encomanar la persecució dels heretges, i, per la seua especial dedicació a aquesta tasca, prompte van rebre l’àlies de “Domini Canes” (gossos del Senyor). A l’interior del timpà, es troba dues lletres: D i F, que signifiquen “Dominicanus Fratres” (frares dominicans).]]></description>
+        <styleUrl>#icon-seq2-0-14-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -0.369529,39.4727212,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
