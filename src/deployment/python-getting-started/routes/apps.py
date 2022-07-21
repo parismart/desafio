@@ -19,7 +19,7 @@ class RoutesConfig(AppConfig):
         cursor = connection.cursor()
 
         cursor.execute("TRUNCATE routes_rutas, routes_poi RESTART IDENTITY")
-        df_routes = pd.read_csv('routes/data/routes.csv', index_col=0)
+        df_routes = pd.read_csv('routes/data/routes.csv')
         insert_query = f"""INSERT INTO routes_rutas(name,
                     esp_resume,
                     eng_resume,
@@ -39,14 +39,15 @@ class RoutesConfig(AppConfig):
         cursor.executemany(insert_query, df_routes.values)
         print("\x1b[1;32m"+"-------------------Populate Routes OK------------------------"+"\033[0;m")
 
-        df_poi = pd.read_csv('routes/data/poi.csv', index_col=0)
+        df_poi = pd.read_csv('routes/data/poi.csv')
         insert_query2 = f"""INSERT INTO routes_poi(route_id,
                     name,
                     lat,
                     lon,
                     val_description,
                     cast_description,
-                    eng_description) values (%s,%s,%s,%s,%s,%s,%s)"""
+                    eng_description,
+                    images) values (%s,%s,%s,%s,%s,%s,%s,%s)"""
 
         cursor.executemany(insert_query2, df_poi.values)
         connection.commit()

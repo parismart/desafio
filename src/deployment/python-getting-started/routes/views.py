@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+import json
 
 # Create your views here.
 def index(request):
@@ -54,6 +55,7 @@ def routes(request):
             point['description_en'] = poi[6]
             point['latitude'] = poi[2]
             point['longitude'] = poi[3]
+            point['image'] = poi[7]
             points.append(point)
 
         ruta['poi'] = points
@@ -62,7 +64,7 @@ def routes(request):
     if (connection):
         cursor.close()
         connection.close()
-    return HttpResponse([rutas])
+    return HttpResponse(json.dumps(rutas, ensure_ascii=False), content_type="application/json")
 
 def route_id(request):
     import psycopg2
@@ -120,6 +122,7 @@ def route_id(request):
             point['description_en'] = poi[6]
             point['latitude'] = poi[2]
             point['longitude'] = poi[3]
+            point['image'] = poi[7]
             points.append(point)
 
         ruta['poi'] = points
@@ -131,7 +134,7 @@ def route_id(request):
         cursor.close()
         connection.close()
 
-    return HttpResponse([ruta])
+    return HttpResponse(json.dumps(ruta, ensure_ascii=False), content_type="application/json")
 
 def poi(request):
     import psycopg2
@@ -156,12 +159,13 @@ def poi(request):
         point['description_en'] = poi[6]
         point['latitude'] = poi[2]
         point['longitude'] = poi[3]
+        point['image'] = poi[7]
         points.append(point)
 
     if (connection):
         cursor.close()
         connection.close()
-    return HttpResponse([points])
+    return HttpResponse(json.dumps(points, ensure_ascii=False), content_type="application/json")
 
 def poi_id(request):
     import psycopg2
@@ -191,6 +195,7 @@ def poi_id(request):
         point['description_en'] = poi[0][6]
         point['latitude'] = poi[0][2]
         point['longitude'] = poi[0][3]
+        point['image'] = poi[0][7]
 
     else:
         point['error'] = 'ID not found'
@@ -199,7 +204,7 @@ def poi_id(request):
         cursor.close()
         connection.close()
 
-    return HttpResponse([point])
+    return HttpResponse(json.dumps(point, ensure_ascii=False), content_type="application/json")
 
 # def populate(request):
 #     import psycopg2
