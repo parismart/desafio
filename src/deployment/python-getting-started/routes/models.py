@@ -27,6 +27,7 @@ class Poi(models.Model):
     val_description = models.CharField(max_length=4500, default='None')
     cast_description = models.CharField(max_length=4500, default='None')
     eng_description = models.CharField(max_length=7000,  default='None')
+    images = models.CharField(max_length=2500, default='None')
 
 # class Rutas(models.Model):
 #     # route_id = models.PositiveIntegerField() 

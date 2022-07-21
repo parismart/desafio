@@ -17,8 +17,8 @@ import routes.views
 urlpatterns = [
     path("", routes.views.index, name="index"),
     path("admin/", admin.site.urls),
-    path("routes/", routes.views.routes, name="routes"),
-    path("route/", routes.views.route_id, name="route"),
-    path("poi/", routes.views.poi, name="poi"),
-    path("poi_id/", routes.views.poi_id, name="poi_id"),
+    path("getRoutes/", routes.views.routes, name="routes"),
+    path("getRouteById/", routes.views.route_id, name="route"),
+    path("getPoi/", routes.views.poi, name="poi"),
+    path("getPoiById/", routes.views.poi_id, name="poi_id"),
 ]
