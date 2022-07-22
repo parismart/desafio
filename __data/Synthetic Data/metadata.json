@@ -1,0 +1,11 @@
+{"fields": {
+  "age": {"type": "categorical"},
+  "gender": {"type": "categorical"},
+  "time": {"type": "categorical"},
+  "route_type": {"type": "categorical"},
+  "price": {"type": "categorical"},
+  "difficulty": {"type": "categorical"},
+  "companions": {"type": "categorical"},
+  "transport": {"type": "categorical"}
+            }
+}
