@@ -1,5 +1,5 @@
 {
-    "age": "Int. ",
+    "age": "Int. AÑO DE NACIMIENTO",
     "gender": "String. (Hombre, Mujer, Otro) ",
     "time": "Int. ENTERO ENTRE 30 y 480",
     "route_type": "String. TIPO DE RUTA PREFEFIDA", 
