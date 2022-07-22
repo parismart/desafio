@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Arbres: Els indians</name>
+    <description><![CDATA[La presència d’Arbres Monumentals i Singulars a la ciutat de València, reflecteix l’esperit de persones, moltes anònimes, que van apostar per conservar i protegir a uns dels éssers vius més longeus del Planeta, i la capacitat del qual de créixer durant tota la seua vida ens permet hui dia sorprendre’ns amb les seues dimensions o per característiques que res tenen a veure amb les mesures sinó amb les seues rareses, la seua forma peculiar, els fets històrics associats a ells o perquè són espècies úniques.<br> Els “Indians” és la ruta dels que vénen de molt lluny, els van portar aquelles persones que es van aventurar a creuar l’Atlàntic i van tornar. I amb ells van arribar espècies exòtiques, que els van acompanyar en el seu viatge de retorn. Hui formen part del nostre paisatge urbà i ens recorden a aquells “indians”.]]></description>
+    <Style id="icon-1720-0F9D58-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1720-0F9D58-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1720-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1720-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1720-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1887-0F9D58-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1887-0F9D58-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1887-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1887-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1887-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Avinguda de J.J. Dómine</name>
+        <description>Inici de la ruta, dominada per dos exemplars d’Ombús (Phylotaca dioica) i un Arbre ampolla (Brachychiton populneus).</description>
+        <styleUrl>#icon-1720-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3318938,39.4613464,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Drassanes del Grau</name>
+        <description>En aquesta part intermèdia abans d’encarar l’Avinguda del Port cap al Jardí d’Aiora podem veure una Palmera pindó (Arecastrum romanzoffianum).</description>
+        <styleUrl>#icon-1887-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3338142,39.4605098,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Jardí d'Aiora]]></name>
+        <description>Últim tram de la ruta que no obstant això representa la part més extensa d’aquesta. Al Jardí d’Aiora hi ha Eucaliptus, Palmeres de Canàries i Figueres australianes.</description>
+        <styleUrl>#icon-1887-0F9D58</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3439986,39.46751,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

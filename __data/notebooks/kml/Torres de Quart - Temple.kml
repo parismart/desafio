@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Torres de Quart - Temple</name>
+    <description><![CDATA[Jardins del Reial<br><br><br><br>Passat i present es donen la mà en aquest recorregut que es planteja entre les Torres de Quart i el Palau del Temple.<br><br>El nostre itinerari transcorre principalment pel districte de Ciutat Vella, pel casc vell de València a través de barris com El Botànic, El Carme, La Seu i El Mercat.<br><br>Recorrerem algunes dels carrers més antics i amb més tradició de la ciutat, tindrem ocasió d’admirar restes de l’antiga muralla islàmica i de visitar algun dels monuments més emblemàtics per al poble valencià.<br><br>Palaus senyorials, mercats, antigues portes de la muralla medieval que segueixen sent testimonis de la vida quotidiana dels valencians, la Catedral, la Basílica de la Verge dels Desemparats, antigues esglésies fundacionals de la ciutat, vestigis d’un passat romà, monuments del nostre Segle d’Or i altres joies del nostre patrimoni cultural.]]></description>
+    <Style id="icon-seq2-0-0-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-0-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-0-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-0-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-0-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-1-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-1-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-1-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-1-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-1-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-10-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-11.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-10-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-11.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-10-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-10-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-10-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-11-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-12.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-11-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-12.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-11-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-11-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-11-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-12-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-13.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-12-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-13.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-12-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-12-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-12-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-13-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-14.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-13-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-14.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-13-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-13-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-13-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-14-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-15.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-14-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-15.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-14-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-14-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-14-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-15-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-16.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-15-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-16.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-15-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-15-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-15-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-16-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-17.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-16-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-17.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-16-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-16-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-16-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-17-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-18.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-17-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-18.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-17-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-17-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-17-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-18-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-19.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-18-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-19.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-18-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-18-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-18-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-19-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-20.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-19-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-20.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-19-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-19-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-19-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-2-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-2-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-2-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-2-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-2-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-20-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-21.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-20-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-21.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-20-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-20-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-20-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-21-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-22.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-21-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-22.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-21-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-21-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-21-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-22-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-23.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-22-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-23.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-22-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-22-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-22-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-23-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-24.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-23-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-24.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-23-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-23-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-23-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-24-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-25.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-24-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-25.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-24-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-24-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-24-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-3-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-3-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-3-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-3-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-3-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-4-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-4-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-4-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-4-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-4-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-5-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-5-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-5-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-5-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-5-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-6-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-7.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-6-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-7.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-6-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-6-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-6-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-7-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-8.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-7-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-8.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-7-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-7-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-7-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-8-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-9.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-8-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-9.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-8-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-8-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-8-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-9-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-10.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-9-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-10.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-9-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-9-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-9-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Jardí Botànic </name>
+        <description>Nostra ruta arranca en barri del Botànic, que pren el seu nom del Jardí Botànic de València, els orígens del qual es remunten al S. XVI encara que es va posar en funcionament en els primers anys del S. XIX. La seua col·lecció alberga al voltant de tres mil espècies botàniques procedents de tots els continents.</description>
+        <styleUrl>#icon-seq2-0-0-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3866586,39.4761018,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Església de San Miquel i Sant Sebastià</name>
+        <description>Just enfront del Jardí Botànic trobem l’Església de San Miquel i Sant Sebastià, un dels pocs exemples del classicisme italià a València, que va acabar de construir-se en 1739. Catalogada com Bé d’Interès Cultural.</description>
+        <styleUrl>#icon-seq2-0-1-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3868732,39.4751412,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Torres de Quart</name>
+        <description>Seguint pel Carrer Quart cap al centre, el visitant albirarà les Torres de Quart, torres gòtiques del S. XV, una de les portes de l’antiga muralla medieval de València que encara avui es manté en peus. Creuant la Calle Guillem de Castro ens trobarem als peus d’aquest superb monument, un dels més emblemàtics de la nostra ciutat. Atenció a les petjades dels projectils que la Guerra de la Independència va deixar en la seua façana.</description>
+        <styleUrl>#icon-seq2-0-2-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3840407,39.4757209,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>’Església de Santa Úrsula</name>
+        <description><![CDATA[<img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/p55kg7m724dap2mnqd255gsdjo/tv6g5spd60uj42esmknink1mag/1657905739750/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/09399246310859849032/5AFzc1vZBVORcnVoXlQPo3hSFYz1kQnGbtorpKSD8xLr13PKLSg4T4ORDMAEHL88SHw0Kde0IhsQ23UqkRxZe7oPDGWUWs36Ircd5CvS2GvXZr0Pgkm6Y6WtMDJbB3rXrqPzdBwLkEJAEWYKPn7IkPJIYek9Zlsk3XevnJ94issWt6HdZ8BVq-YdrNiJGaHLHyqZfSmV7?session=0&fife" height="200" width="auto" /><br><br>Deixant arrere les Torres de Quart ens endinsem en el Barri del Carmen de València, potser el barri més popular de la ciutat i una referència obligada quant a la seua oferta d’oci, cultura i gastronomia. Molt prop de les torres, l’Església de Santa Úrsula, construïda en el S. XVII amb façana de rajola, és solament un més dels tresors patrimonials que poden admirar-se en el casc històric de València. En el seu interior conserva decoració barroca del S. XVII i taulells valencians del XVIII.<br><br><img src="https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/p55kg7m724dap2mnqd255gsdjo/9i0b4ar2bcgiaa59ukbu4oqvrk/1657905739750/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/09399246310859849032/5AFzc1vYuURCqdaazGT-T0w-CMBCAa6mRaISlDYBn_M2ywtd8H-1_T5oKhQDvkQChNgXClk0jClGlGSxOvgpBnEJuvqw_vUCAvzHFcG7tQSyWeSq8jYZlVtcT7BJNIvZkakWQIX_WBg7U4QFf0Qp_SWbZofUL3Ek8aqGU_FseQjB2BQwqUfsSh5v-a96E_L_XJn2lQ5m-?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-seq2-0-3-097138</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/p55kg7m724dap2mnqd255gsdjo/tv6g5spd60uj42esmknink1mag/1657905739750/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/09399246310859849032/5AFzc1vZBVORcnVoXlQPo3hSFYz1kQnGbtorpKSD8xLr13PKLSg4T4ORDMAEHL88SHw0Kde0IhsQ23UqkRxZe7oPDGWUWs36Ircd5CvS2GvXZr0Pgkm6Y6WtMDJbB3rXrqPzdBwLkEJAEWYKPn7IkPJIYek9Zlsk3XevnJ94issWt6HdZ8BVq-YdrNiJGaHLHyqZfSmV7?session=0&fife https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/p55kg7m724dap2mnqd255gsdjo/9i0b4ar2bcgiaa59ukbu4oqvrk/1657905739750/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/09399246310859849032/5AFzc1vYuURCqdaazGT-T0w-CMBCAa6mRaISlDYBn_M2ywtd8H-1_T5oKhQDvkQChNgXClk0jClGlGSxOvgpBnEJuvqw_vUCAvzHFcG7tQSyWeSq8jYZlVtcT7BJNIvZkakWQIX_WBg7U4QFf0Qp_SWbZofUL3Ek8aqGU_FseQjB2BQwqUfsSh5v-a96E_L_XJn2lQ5m-?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3833595,39.4759549,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaça del Tossal</name>
+        <description><![CDATA[La Calle Quart desemboca en la Plaça del Tossal, una de les places clàssiques del barri que ens serveix com a bon element distribuïdor cap a diferents destinacions del nostre recorregut. I és que després de l’enderrocament de la muralla islàmica aquesta plaça va adquirir les funcions de nus urbà, unint el Carrer Quart, la Calle Cavallers, Bolsería i el Carrer Alt.<br><br>En la Galeria del Tossal, situada en aquesta mateixa plaça, es poden admirar restes arqueològiques d’una torre de la muralla islàmica del S. XII. I molt prop d’allí, en la Calle Cavallers 36 i 38, a menys d’un minut caminant trobem altres vestigis del seu traçat, part de l’a prop i dues torres.]]></description>
+        <styleUrl>#icon-seq2-0-4-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3802266,39.4762375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle Cavallers</name>
+        <description>El recorregut de la Calle Cavallers, una de les més antigues de la ciutat, és recomanable pel seu pes històric i artístic, a part de la seua àmplia oferta d’oci i gastronomia. En aquest carrer es van concentrar en el seu moment els palaus de les famílies valencianes més notables. Els Palaus de la Calle Cavallers es distribueixen principalment al llarg dels nombres 14-18 (Edificis Sancho, S. XIX), 20-22 (Palacio dels Marquesos de Malferit, S.xv-XIX), 26 (Palacio dels Marquesos de Mercader, S. XV-XVIII), 28 (Palacio dels Comtes d’Alpont, S. XV-XVIII), 33 (Palacio dels Centelles o Daia Nueva, S. XV), 36 (Palacio dels Fernández de Còrdova, S.xv-XIX) i 43 (Palacio dels Queixal o dels Trenor, S.xv-XIX).</description>
+        <styleUrl>#icon-seq2-0-5-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3788909,39.4765853,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Església de Sant Nicolás</name>
+        <description>En el número 35 d’aquest carrer trobem l’Església de Sant Nicolás, una altra joia del patrimoni valencià que destaca per la seua esplèndida combinació d’arquitectura gòtica del S. XV amb la decoració barroca del S.XVII.</description>
+        <styleUrl>#icon-seq2-0-6-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3789392,39.4761589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Llotja de la Seda</name>
+        <description>Tornem a la Plaça del Tossal i baixem pel Carrer Bolseria per a anar a parar a la Plaça del Mercat, en la qual trobem la Llotja de la Seda, del S. XV, emblemàtic monument del nostre casc històric, peça clau del gòtic civil valencià, declarat Patrimoni de la Humanitat per la UNESCO.</description>
+        <styleUrl>#icon-seq2-0-7-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3785959,39.4743452,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mercat Central</name>
+        <description>Espectacular edifici dels més visitats de la nostra ciutat, una joia de l’arquitectura modernista construïda en els primers anys XX. La seua impressionant estructura de ferro forjat, ceràmiques i vidrieres són testimonis del tràfec diari entre comerciants i clients, en el major espai europeu dedicat a la venda de productes frescos.</description>
+        <styleUrl>#icon-seq2-0-8-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -0.378333,39.4737116,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palau de la Generalitat</name>
+        <description>En l’inici de la Calle Cavallers, quasi arribant a la Plaça de la Verge, es troba el Palau de la Generalitat Valenciana, la seu del govern de la Comunitat Valenciana. Un edifici d’origen medieval, d’estil gòtic valencià amb retocs renaixentistes construït en el S. XV. Posteriorment, ha patit diverses intervencions, les últimes d’elles en el S. XX i inicis del S. XXI.</description>
+        <styleUrl>#icon-seq2-0-9-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3766378,39.476693,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palau Marquès de la Scala</name>
+        <description>A menys d’un minut trobem el Palau Marquès de la Scala, del S. XVI, situat en la veïna Plaça de Manises. A causa de les seues transformacions posteriors el visitant advertirà la seua combinació de gòtic valencià amb elements del renaixement i del barroc.</description>
+        <styleUrl>#icon-seq2-0-10-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3760638,39.4768504,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palau de Batlia</name>
+        <description><![CDATA[<img src="https://doc-0k-7k-mymaps.googleusercontent.com/untrusted/hostedimage/p55kg7m724dap2mnqd255gsdjo/uoukc72j95n8u93kpgvs080f60/1657905739750/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/09399246310859849032/5AFzc1va99WuTvBxJ9miyX0eXik2xCglgwgGkNEhqLNtwgHhjtDQYVCY6Q6aBprw4oZZEQ04a2DZ2N9YVZ7j5dM34t0Gf4tfdOfx_d0c_HO_zpHtkwy2UQ0G4NBHA1l6B7zMDWXf9aLrxzM0hKg0uQwdXzL1DugdVYB8lwVRX3K7PSaTQO8cTDX8QOWCXKQ6aIyVl_Eo?session=0&fife" height="200" width="auto" /><br><br>En la mateixa plaça es troba el Palau de Batlia, seu de la Diputació Provincial de València, que té els seus orígens en el S. XV. Declarat Monument Històric Nacional.]]></description>
+        <styleUrl>#icon-seq2-0-11-097138</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-7k-mymaps.googleusercontent.com/untrusted/hostedimage/p55kg7m724dap2mnqd255gsdjo/uoukc72j95n8u93kpgvs080f60/1657905739750/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/09399246310859849032/5AFzc1va99WuTvBxJ9miyX0eXik2xCglgwgGkNEhqLNtwgHhjtDQYVCY6Q6aBprw4oZZEQ04a2DZ2N9YVZ7j5dM34t0Gf4tfdOfx_d0c_HO_zpHtkwy2UQ0G4NBHA1l6B7zMDWXf9aLrxzM0hKg0uQwdXzL1DugdVYB8lwVRX3K7PSaTQO8cTDX8QOWCXKQ6aIyVl_Eo?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3764876,39.4769249,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Torre de Sant Bartolomé </name>
+        <description>Molt prop d’allí, en el Carrer Serrans, la Torre de Sant Bartolomé Apostol és l’únic vestigi que es conserva de l’església del mateix nom, una de les deu esglésies fundacionals de la ciutat després de la conquesta de Jaume I.</description>
+        <styleUrl>#icon-seq2-0-12-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3769597,39.4772023,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Torres de Serrans</name>
+        <description>Seguint pel Carrer de Serrans, a 3 minuts caminant, un dels monuments més representatius d’aquesta ciutat: les Torres de Serrans, construïdes en el S. XIV, al costat de les de Quart les úniques dues portes fortificades de la muralla medieval que conserva la ciutat. Avui dia es poden visitar i des de la part més alta es contemplen unes excel·lents vistes de València.</description>
+        <styleUrl>#icon-seq2-0-13-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -0.375919,39.4791484,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaça de la Verge</name>
+        <description><![CDATA[<img src="https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/p55kg7m724dap2mnqd255gsdjo/oiroth38gtcrc49srr92v7q5fs/1657905739750/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/09399246310859849032/5AFzc1vYafjNn_qcYpiVDQrz6fxzFg0EuC_I4T6VkWgyKtXIPvOHLtx_hquRXrbZXbrZbSe_PkajNT-mou4iYuBWWLAAXkV78w5cz98-DxWmiLmDcSmI6BJGJtQeU9diLXjiAfOXy-oZ-Z4fX01zIxHeOM8eoVAmgFqcNflq2koNe3PYgJbkHON7wjM3bQ5OBxDavf4Mi?session=0&fife" height="200" width="auto" /><br><br>La Plaça de la Verge està situada en el Barri de la Seu, dins del districte de Ciutat Vella. Es tracta d’una plaça per als vianants de les més típiques i concorregudes de València, que reuneix a la seua al voltant varis dels edificis més importants de la ciutat: la Catedral, el Palau de la Generalitat i la Basílica de la Verge dels Desemparats.<br><br><img src="https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/p55kg7m724dap2mnqd255gsdjo/arbn5bk9p9cehlb9qlfgqp6890/1657905739750/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/09399246310859849032/5AFzc1vb5L9rlBJ2bxXbVMXHtLs9VQKf9J6VrpXFQgNHQ4UVuFzuI0ShnxhS5Rk3g_AtCT7nqfN3F2xOi9hAJ5eOxS4_jmqYPR2IKWn3agfGlji5Mwt6_KibfhDFjJdqUwJQCiB_pJJkPYuG4VcEO6tgwtnA_tbPTQop8TtdVUql2Aofitu05mQ925zLmD0Z6m3p6LORy?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-seq2-0-14-097138</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/p55kg7m724dap2mnqd255gsdjo/oiroth38gtcrc49srr92v7q5fs/1657905739750/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/09399246310859849032/5AFzc1vYafjNn_qcYpiVDQrz6fxzFg0EuC_I4T6VkWgyKtXIPvOHLtx_hquRXrbZXbrZbSe_PkajNT-mou4iYuBWWLAAXkV78w5cz98-DxWmiLmDcSmI6BJGJtQeU9diLXjiAfOXy-oZ-Z4fX01zIxHeOM8eoVAmgFqcNflq2koNe3PYgJbkHON7wjM3bQ5OBxDavf4Mi?session=0&fife https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/p55kg7m724dap2mnqd255gsdjo/arbn5bk9p9cehlb9qlfgqp6890/1657905739750/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/09399246310859849032/5AFzc1vb5L9rlBJ2bxXbVMXHtLs9VQKf9J6VrpXFQgNHQ4UVuFzuI0ShnxhS5Rk3g_AtCT7nqfN3F2xOi9hAJ5eOxS4_jmqYPR2IKWn3agfGlji5Mwt6_KibfhDFjJdqUwJQCiB_pJJkPYuG4VcEO6tgwtnA_tbPTQop8TtdVUql2Aofitu05mQ925zLmD0Z6m3p6LORy?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3752267,39.4763529,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casa Vestuari</name>
+        <description><![CDATA[<img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/p55kg7m724dap2mnqd255gsdjo/efq89gs4qvb763nagkp738m10g/1657905739750/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/09399246310859849032/5AFzc1vZkA-Oj0Z5nqH5EKJdij8UAukzNNJ994ZS2FBHCoAERc-oqe7m4XLZKUDbqF6i_06-0kW5f5Bf8aImbr55Fd9eaqS7vOVAEXUWdp2ciFaiNwXBZewZiAmdgrt-p67MpD3YKthfS2dj3YNIe7KT7w4G7os3CxChxUEgdbCqn-SmNDP36YNHLw5pT3icbPRRs795n?session=0&fife" height="200" width="auto" /><br><br>En el número 1 de la Plaça de la Verge es troba la Casa Vestuari, d’estil neoclàssic del S. XVIII, que es va utilitzar com a punt de reunió per als magistrats del Tribunal de les Aigües abans dels judicis que se celebraven en la seua porta.<br><br><img src="https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/p55kg7m724dap2mnqd255gsdjo/6hee3dtofsa6vgcsc4dbag3cq0/1657905739750/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/09399246310859849032/5AFzc1vYYyHavhPIIwjZpjvX0k8P9fmvl8d1WU1RMI12xD9t4tUY_teslbJrtlLJp-_shjZ5QcWBTb8HXNTi31tAAcBYlJrVulOReKDaaeB4d1hrogsNzo9tKib2pI0NiGNXmPvrZHJ00qmWZKc4tbz9ZMueU790yK2qH4b26M_eaMk5tjnfVBi7n7jO3KHC1G8VHhd3p?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/p55kg7m724dap2mnqd255gsdjo/eighikqi7m3kqfc94q0gj8ur88/1657905739750/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/09399246310859849032/5AFzc1vYxJluS4fezthEVPKMRY6bubjAvkCshNz_nDrv22CuqxITS3mSlpU1Csv41gm2IkMXygLMUdsDYBANRL9qjB5emLDjRkxRg6Hd_eCbllS26B_BmLxnrHeOPOzybDdIkcPJRTNfgQTHvK_EEb_IXLvB42mVn3MRnvItW1mlRgmCIkKMigYg70VNrwzfjzuEHlgfs?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/p55kg7m724dap2mnqd255gsdjo/f378jhnght7lo1stgq7h6d54jg/1657905739750/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/09399246310859849032/5AFzc1vb6EW-rIYvNL_GEeTEWfwNn6MzHWQ_bp1o3lOn_FknkBkw88W77sw-OfuVIE52URD7bXsfV_oUgUh4X5OxdHjWkODCKT4kp_CrxyxdeFymDY-8ifVuaed1grnbn4YreWnQoCzlOQQnfEccWWN0eti_sbLeEUlM3k_k14gevxJYxyjNVWi83NVKM2AeuZPXfk9w?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/p55kg7m724dap2mnqd255gsdjo/nmfmt9kaobu1qetnu3q0dl6eng/1657905739750/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/09399246310859849032/5AFzc1vbSbK4gqDjeEwSfHYpxf93pv4ZIrf-zOZIMLOqxIoGr1waKJwHM_mWi9RS2V_UWUUWwVtXY0oQHPr3DfTERMnkV00nFrUBdLpMaBD6xSh4eLMtVYSBzuyOoqo9qZBRyj_P3I3OVXEgdW39zWlwaTthLFFK_xSL9D1wgO3Gr2rolf4qIEGhWd3JV1KMdS8Xx2d_C?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-seq2-0-15-097138</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/p55kg7m724dap2mnqd255gsdjo/efq89gs4qvb763nagkp738m10g/1657905739750/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/09399246310859849032/5AFzc1vZkA-Oj0Z5nqH5EKJdij8UAukzNNJ994ZS2FBHCoAERc-oqe7m4XLZKUDbqF6i_06-0kW5f5Bf8aImbr55Fd9eaqS7vOVAEXUWdp2ciFaiNwXBZewZiAmdgrt-p67MpD3YKthfS2dj3YNIe7KT7w4G7os3CxChxUEgdbCqn-SmNDP36YNHLw5pT3icbPRRs795n?session=0&fife https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/p55kg7m724dap2mnqd255gsdjo/6hee3dtofsa6vgcsc4dbag3cq0/1657905739750/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/09399246310859849032/5AFzc1vYYyHavhPIIwjZpjvX0k8P9fmvl8d1WU1RMI12xD9t4tUY_teslbJrtlLJp-_shjZ5QcWBTb8HXNTi31tAAcBYlJrVulOReKDaaeB4d1hrogsNzo9tKib2pI0NiGNXmPvrZHJ00qmWZKc4tbz9ZMueU790yK2qH4b26M_eaMk5tjnfVBi7n7jO3KHC1G8VHhd3p?session=0&fife https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/p55kg7m724dap2mnqd255gsdjo/eighikqi7m3kqfc94q0gj8ur88/1657905739750/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/09399246310859849032/5AFzc1vYxJluS4fezthEVPKMRY6bubjAvkCshNz_nDrv22CuqxITS3mSlpU1Csv41gm2IkMXygLMUdsDYBANRL9qjB5emLDjRkxRg6Hd_eCbllS26B_BmLxnrHeOPOzybDdIkcPJRTNfgQTHvK_EEb_IXLvB42mVn3MRnvItW1mlRgmCIkKMigYg70VNrwzfjzuEHlgfs?session=0&fife https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/p55kg7m724dap2mnqd255gsdjo/f378jhnght7lo1stgq7h6d54jg/1657905739750/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/09399246310859849032/5AFzc1vb6EW-rIYvNL_GEeTEWfwNn6MzHWQ_bp1o3lOn_FknkBkw88W77sw-OfuVIE52URD7bXsfV_oUgUh4X5OxdHjWkODCKT4kp_CrxyxdeFymDY-8ifVuaed1grnbn4YreWnQoCzlOQQnfEccWWN0eti_sbLeEUlM3k_k14gevxJYxyjNVWi83NVKM2AeuZPXfk9w?session=0&fife https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/p55kg7m724dap2mnqd255gsdjo/nmfmt9kaobu1qetnu3q0dl6eng/1657905739750/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/09399246310859849032/5AFzc1vbSbK4gqDjeEwSfHYpxf93pv4ZIrf-zOZIMLOqxIoGr1waKJwHM_mWi9RS2V_UWUUWwVtXY0oQHPr3DfTERMnkV00nFrUBdLpMaBD6xSh4eLMtVYSBzuyOoqo9qZBRyj_P3I3OVXEgdW39zWlwaTthLFFK_xSL9D1wgO3Gr2rolf4qIEGhWd3JV1KMdS8Xx2d_C?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3753823,39.4759596,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Catedral de València</name>
+        <description>Enfront d’aquesta casa es troba la Porta dels Apòstols de la Catedral de València, la porta occidental d’aquest monument religiós, també conegut popularment com “La Seu”, que va començar a construir-se en el S. XIII. En el seu estil arquitectònic sobreix el gòtic valencià, encara que també es troben elements del romànic, renaixement, barroc i neoclàssic. Seu del Arzobispado de València.</description>
+        <styleUrl>#icon-seq2-0-16-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3751945,39.475649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palau de Benicarló</name>
+        <description>El Palau de Benicarló o Palau dels Borja, edifici d’estil gòtic i renaixentista, es troba a tan sol un parell de minuts caminat des de la Plaça de la Verge en adreça cap a l’antic llit del riu Túria. Avui dia és la seu de les Corts Valencianes.</description>
+        <styleUrl>#icon-seq2-0-17-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3747278,39.477704,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Església de Sant Lorenzo</name>
+        <description>Quasi enfronte trobem l’Església de Sant Lorenzo, edificació religiosa que va ser una de les primeres esglésies valencianes erigides cap a 1238, data de la conquesta. Posteriorment es va reconstruir en el S. XVII seguint les línies mestres del barroc.</description>
+        <styleUrl>#icon-seq2-0-18-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3749209,39.4780808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palau del Marquès de Campo</name>
+        <description>Seguim recorrent els voltants de la Plaça de la Verge i la Catedral. A 4 minuts caminant des de la nostra última destinació, pels carrers Samaniego cap a la Calle Farina, es troba el Palau del Marquès de Campo, un edifici residencial del S.XVII que va patir transformacions en el S. XX. Avui dia serveix de seu al Museu de la Ciutat de València. Es troba.</description>
+        <styleUrl>#icon-seq2-0-19-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3738212,39.4760105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centre Arqueològic de l’Almoina</name>
+        <description>Molt a prop tenim el Centre Arqueològic de l’Almoina, museu arqueològic inaugurat en 2007, que s’alça sobre l’antiga Plaça romana de Décimo Junio Bruto, sobre el mateix lloc en el qual es va fundar la ciutat romana. En aquest espai subterrani es poden admirar restes de la València romana, visigoda i àrab.</description>
+        <styleUrl>#icon-seq2-0-20-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3743362,39.4763127,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>l’Almodí</name>
+        <description>En el nombre 1 d’aquesta mateixa plaça localitzem l’Almodí, una construcció del S. XIV, d’estil gòtic valencià, que va fer les vegades de magatzem de blat i que ocupa l’espai d’un antic alcàsser musulmà. Avui dia s’utilitza com a centre d’exposicions i museu.</description>
+        <styleUrl>#icon-seq2-0-21-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3738212,39.4765777,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cripta Arqueològica de la Presó de Sant Vicent Màrtir</name>
+        <description>Desandamos alguna cosa del camí recorregut per la Calle Farina per a visitar la Cripta Arqueològica de la Presó de Sant Vicent Màrtir, una antiga capella funerària visigoda sobre la qual Jaume I va ordenar edificar una altra capella dedicada a Sant Vicent Màrtir, ja que en aquest lloc es trobava una de les presons en les quals va estar tancat el sant en el segle IV. Un dels llocs dedicats a la seua memòria en la ciutat.</description>
+        <styleUrl>#icon-seq2-0-22-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3730595,39.4761347,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Església de Sant Esteban</name>
+        <description>L’últim punt d’aquest tram de la nostra ruta és l’Església de Sant Esteban, a la qual arribem seguint pel Carrer dels Trinitaris i baixant per la del Tossalet, construïda en el S. XV sobre una antiga mesquita i reformada per a pal·liar la seua deterioració en el S. XVII.</description>
+        <styleUrl>#icon-seq2-0-23-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3726303,39.476056,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palacio i Església del Temple</name>
+        <description>Deixem l’Església de Sant Esteban i ens dirigim en direcció al Jardí del Túria per a arribar al Palacio i Església del Temple, conegut així per haver pertangut antigament a l’Ordre dels Templarios. Conjunt arquitectònic format pel convent, el col·legi i l’església construït en temps de Carlos III sobre les ruïnes d’un antic monestir seguint l’estil neoclàssic. Avui dia serveix de seu de la delegació del Govern central.</description>
+        <styleUrl>#icon-seq2-0-24-097138</styleUrl>
+        <Point>
+          <coordinates>
+            -0.3711551,39.4764328,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

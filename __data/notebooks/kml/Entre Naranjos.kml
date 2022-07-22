@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Entre Naranjos</name>
+    <description><![CDATA[Atenint-nos al narrat en la novel·la Entre naranjos, es traça una ruta on se situen els espais pels quals va transitar el protagonista alcireny del relat en la seua breu estada en la ciutat abans d’emprendre una fugida amorosa amb la bella cantant d’òpera Leonora. En concret, partint des de la cantonada del carrer Lauria amb la plaça de l’Ajuntament, se segueix fins al lloc on va estar el desaparegut Café de España. Per el carrer de les Barques s’arriba fins al Teatre Principal, i des d’allí a l’Hotel Inglés (antany de Roma), informant sobre la plaça de Villarrasa i el palau del Marquès de Dosaigües. Després, s’accedeix a la Universitat Literària des del carrer de la Nau, per a marxar a continuació al Parterre, creuant després pel pont del Real fins a desembocar en l’Albereda.<br><br>Si bé la història narrada en Entre naranjos transcorre, fonamentalment, en un àmbit rural que condiciona de manera decisiva la peripècia amorosa dels protagonistes i servix a l’autor per a denunciar les maneres del caciquisme i la política local, el desplaçament dels personatges fins a València permet materialitzar un interessant itinerari.]]></description>
+    <Style id="icon-seq2-0-0-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-0-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-0-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-0-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-0-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-1-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-1-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-1-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-1-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-1-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-2-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-2-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-2-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-2-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-2-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-3-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-3-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-3-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-3-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-3-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-4-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-4-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-4-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-4-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-4-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-5-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-5-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-5-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-5-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-5-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-6-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-7.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-6-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-7.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-6-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-6-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-6-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-7-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-8.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-7-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-8.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-7-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-7-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-7-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-8-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-9.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-8-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-9.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-8-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-8-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-8-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-9-F9A825-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-10.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-9-F9A825-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-10.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-9-F9A825">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-9-F9A825-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-9-F9A825-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Estació de tren</name>
+        <description><![CDATA[<img src="https://doc-0k-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/0dps8kb842k82hkkje3rqenqso/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vawjZTATlAkeWJgjsl3rUOh_gcdvFvS7NmLPlOmidLFMwn7glGAdvTQTN_VD_5cPmxfhroNLV7IpyN78TSHovZKAecMcAy3OGzw1zNXI8Da9isr1jgihhetotjeX5w6lC26HaOmApFsK5PJ-tXlxb9u510g32nyEf5L6Q7U52SDGtdzLxmqEjRKdnuIZyQVgso?session=0&fife" height="200" width="auto" /><br><br>El punt de partida del nostre itinerari se situa en el mateix lloc al qual arribarien, des d’Alzira, els personatges principals de la novel·la per a endinsar-se en els carrers de la ciutat. El tren en què viatjava Rafael no es va detindre en l’actualment coneguda com a estació del Nord, ja que esta va ser inaugurada el 8 d’agost de 1917. L’antiga estació de ferrocarril estava situada als terrenys del convent ja desaparegut de Sant Francesc, a la plaça del mateix nom (hui de l’Ajuntament). Per això, en l’època es designava també com a estació de Sant Francesc. Aproximadament, es trobava on hui dia s’alcen els edificis de l’Equitativa i Telefónica.]]></description>
+        <styleUrl>#icon-seq2-0-0-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/0dps8kb842k82hkkje3rqenqso/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vawjZTATlAkeWJgjsl3rUOh_gcdvFvS7NmLPlOmidLFMwn7glGAdvTQTN_VD_5cPmxfhroNLV7IpyN78TSHovZKAecMcAy3OGzw1zNXI8Da9isr1jgihhetotjeX5w6lC26HaOmApFsK5PJ-tXlxb9u510g32nyEf5L6Q7U52SDGtdzLxmqEjRKdnuIZyQVgso?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3772178,39.4673551,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Café de España</name>
+        <description><![CDATA[<img src="https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/ndjhlslcpnt7rne2kb6amg71io/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vZCGoezfp7AhDPJR3PytPZZq9ZgSnmMdtAw6zT8vlOnhq4m_UQEP0Fn6aEr2Wrksrlr3mv4ZxodMCcxiRbFJeUl7UFefzXGTgivZmB7yhIKku1oMfzyoiSCQRjcNZFk0fevp-CTYKTwt0oZWFOShFnh0sWY5neGxnXmtiiW2HXIfQfW8_VfMi5Al7eZ2LKkgxA?session=0&fife" height="200" width="auto" /><br><br>Els qui arribaren a l’estació del Nord o de Sant Francesc podien trobar, caminant dos o tres minuts en direcció a la catedral, el local que s’esmenta en la novel·la i que el mateix Blasco Ibáñez freqüentava amb una certa assiduïtat. El Café de España era un establiment on el novel·lista compartia tertúlia, descansava del seu enrenou com a redactor d’El Correo de Valencia i director de La Bandera Federal o escrivia cartes d’apassionat sentimentalisme a la seua nóvia Maria.<br><br>El Café de España estava situat a la baixada de Sant Francesc, a la plaça de Caixers, i en l’actualitat el localitzaríem en el número 9 de la plaça de l’Ajuntament. En el mateix lloc on havia estat el col·legi Valentino, l’amo del café, un ric aragonés, va recórrer als dots artístics d’Antoni Cortina per a embellir un local d’esplai en el qual hi havia també una sala de billars i un saló àrab concebut com a rèplica del pati d’Ambaixadors de l’Alhambra granadina. En l’ornamentació del Café de España col·laborarien figures com el tallista Juan Estellés i l’escultor Josep Aixa.]]></description>
+        <styleUrl>#icon-seq2-0-1-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/ndjhlslcpnt7rne2kb6amg71io/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vZCGoezfp7AhDPJR3PytPZZq9ZgSnmMdtAw6zT8vlOnhq4m_UQEP0Fn6aEr2Wrksrlr3mv4ZxodMCcxiRbFJeUl7UFefzXGTgivZmB7yhIKku1oMfzyoiSCQRjcNZFk0fevp-CTYKTwt0oZWFOShFnh0sWY5neGxnXmtiiW2HXIfQfW8_VfMi5Al7eZ2LKkgxA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3758043,39.470008,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Teatre Principal</name>
+        <description><![CDATA[<img src="https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/rd8drcvajcod0jb3fhbetjs564/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vYWaFSfN36HCBZoibcdX_E3aKv7R5c51PXOVKyVuQtLxhMPr2XH_Gm_ZF48JE6VPhRpyPI_TT3SkpankTWZ6tVENrnytWK_7iW1AXHgg4S-nz-WZw65vd6IdLY688ZbyTCLLUznUf7OkTpWqmi5QJRjDWdsJG1BukBQCu5ARHGbwESgzM9ieEZH8aDXcpFYLs4?session=0&fife" height="200" width="auto" /><br><br>Retrocedint uns metres en la plaça de l’Ajuntament, seguim pel carrer de les Barques fins a arribar al teatre Principal. Encara que en 1770 es va encomanar a l’arquitecte Filippo Fontana la realització dels plànols per a un edifici en estil italià, l’inici de les obres es va demorar diversos anys, i fins i tot després que, en 1804, Cristòfol Sales efectuara algunes modificacions en el projecte inicial, la construcció es va veure interrompuda per la Guerra del Francés. Va ser al juliol de 1832 quan pogué inaugurar-se el recinte teatral.<br><br>Igual que el pare de Leonora, el doctor Moreno, Blasco Ibáñez era un apassionat de l’òpera i quan li ho permetien les circumstàncies solia acudir a les estrenes que tenien lloc al Principal. Anava amb amics o portava fins i tot els seus fills a les representacions nocturnes, opció que era considerada improcedent per alguns. Abans de ser pare de família, sembla ser que el novel·lista va tindre una aventura amorosa amb la soprano russa Nadina Bulitxov, que arribà a València per a inaugurar la temporada d’òpera en el Principal a començament de novembre de 1891. Possiblement, el personatge de la Bulitxov li va servir com a model per a la creació de la Leonora d’Entre naranjos.]]></description>
+        <styleUrl>#icon-seq2-0-2-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/rd8drcvajcod0jb3fhbetjs564/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vYWaFSfN36HCBZoibcdX_E3aKv7R5c51PXOVKyVuQtLxhMPr2XH_Gm_ZF48JE6VPhRpyPI_TT3SkpankTWZ6tVENrnytWK_7iW1AXHgg4S-nz-WZw65vd6IdLY688ZbyTCLLUznUf7OkTpWqmi5QJRjDWdsJG1BukBQCu5ARHGbwESgzM9ieEZH8aDXcpFYLs4?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3744203,39.470507,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hotel  de Roma / Hotel Inglés</name>
+        <description><![CDATA[<img src="https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/2k76d3s2kckqffi071sti62emc/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vaTCT_GgpACsTQm0N6qNhEInQQEg1EzU3QE8oblfWDbvMvtzbFvahNSz6lAcZlZ9XElw5shkmAusKORewjimCPXhqdg__Kz1CsrtlvItHZcijlqvSD6N5mcIpPIlGCowZq4IZDiD_Sh-4hdIneXzUnrLCS5C8GCUsCFzlR8xF-s4gXtcZp927y0uhWkXUtV5Xo?session=0&fife" height="200" width="auto" /><br><br>Quan Leonora i Rafael es decidiren a fugir d’Alzira pensant gaudir plenament de la seua passió en algun país europeu, s’allotjaren en l’Hotel de Roma abans d’emprendre el seu gran viatge. Fins al mateix hostal discorre este itinerari, el qual ens porta des del teatre Principal, seguint pel carrer del Poeta Querol, fins a arribar a la cantonada del carrer del Marqués de Dosaigües i el carrer de la Cultura. Allí s’alça l’Hotel Inglés, que a la fi del segle xix va ser Hotel de Roma i antigament va ser l’antic palau gòtic dels ducs de Cardona.<br><br>En la novel·la, des de les habitacions d’este edifici Leonora disposava d’una perspectiva magnífica a altres espais ben coneguts o que ja han desaparegut.]]></description>
+        <styleUrl>#icon-seq2-0-3-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-10-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/2k76d3s2kckqffi071sti62emc/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vaTCT_GgpACsTQm0N6qNhEInQQEg1EzU3QE8oblfWDbvMvtzbFvahNSz6lAcZlZ9XElw5shkmAusKORewjimCPXhqdg__Kz1CsrtlvItHZcijlqvSD6N5mcIpPIlGCowZq4IZDiD_Sh-4hdIneXzUnrLCS5C8GCUsCFzlR8xF-s4gXtcZp927y0uhWkXUtV5Xo?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3745116,39.4728585,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaça de Vila-rasa</name>
+        <description><![CDATA[<img src="https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/jj4lhh09dnfg4n6s7ddbpsh7nc/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vY-eRjFWSIY6L7kFYqU1WEgki71FGcK6FvYuGL8BwDSvCuEFY8zN_d4wI0DpW5es_XBeiGPegLsC_s-uhZNkqg2JhB_X2xh_Zzs-ic3IhP6zPHvfGEGcTfxXrOfeOJL4eWZS1mEgjaoBkenwx1FTmbZxbQCJkxRm2JWU48DSnzTKRyyrDokTnEPrxqoFCU3p2U?session=0&fife" height="200" width="auto" /><br><br>El que a Leonora li semblava una placeta era la plaça de Vila-rasa, un espai circumdat pel palau del Marqués de Dosaigües, l’Hotel de Roma i el palau dels comtes de Nieulant (enderrocat a mitjan segle xx), i que amb el temps va haver d’obrir-se per a donar un millor accés al carrer de la Pau.]]></description>
+        <styleUrl>#icon-seq2-0-4-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0s-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/jj4lhh09dnfg4n6s7ddbpsh7nc/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vY-eRjFWSIY6L7kFYqU1WEgki71FGcK6FvYuGL8BwDSvCuEFY8zN_d4wI0DpW5es_XBeiGPegLsC_s-uhZNkqg2JhB_X2xh_Zzs-ic3IhP6zPHvfGEGcTfxXrOfeOJL4eWZS1mEgjaoBkenwx1FTmbZxbQCJkxRm2JWU48DSnzTKRyyrDokTnEPrxqoFCU3p2U?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3744954,39.4727773,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palau del Marqués de Dosaigües</name>
+        <description><![CDATA[<img src="https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/86f3j8ctqbvr6va7b8l342jps0/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1va7PZtEizQQ2f1aStILqr8qeoN7AfwmhqkZDPDvNRrj2_1GY6BOQXH__WQ6TbO8vfwcl80LslLLuKp3jyezgCC_Q_B1F-nb1c_9Je9ZPylIsUbLstcmEXHmHEtAwiOKPnBygmk8x1CL6muR5v6imlUhuKz-1V9jjNmpSEb2xzzOOpw_gUJnKO3UDBP6kom4rdM?session=0&fife" height="200" width="auto" /><br><br>El tercer escenari que captiva la mirada de Leonora és el palau del Marqués de Dosaigües, una construcció la fisonomia actual de la qual dista bastant de la que tingué l’antiga casa pairal d’estil gòtic dels Rabassa de Perellós (marquesos de Dosaigües), alçada en el segle xv. Tres-cents anys després, en la dècada de 1740, l’edifici va patir una reforma integral i es va aplicar l’estil rococó en elements com els ornaments que decoren la porta principal, realitzats en alabastre per Ignasi Vergara a partir del disseny d’Hipòlit Rovira. Després d’una nova remodelació a mitjan xix, ja en 1954 el monument es va habilitar com a Museu Nacional de Ceràmica i Arts Sumptuàries. A l’interior alberga la magnífica col·lecció de ceràmica donada per Manuel González Martí, i enlluerna els visitants amb luxoses carrosses del xviii, així com amb vistosos salons huitcentistes entre els quals cal esmentar el Saló Xinés, la Sala de Porcellana o el Saló de Ball.]]></description>
+        <styleUrl>#icon-seq2-0-5-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/86f3j8ctqbvr6va7b8l342jps0/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1va7PZtEizQQ2f1aStILqr8qeoN7AfwmhqkZDPDvNRrj2_1GY6BOQXH__WQ6TbO8vfwcl80LslLLuKp3jyezgCC_Q_B1F-nb1c_9Je9ZPylIsUbLstcmEXHmHEtAwiOKPnBygmk8x1CL6muR5v6imlUhuKz-1V9jjNmpSEb2xzzOOpw_gUJnKO3UDBP6kom4rdM?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3745451,39.4726603,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Universitat</name>
+        <description><![CDATA[<img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/bjj7jcb6stqpntknmn816jh078/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vazGCwxHPUK8LKxfoOAznRXNcoPrliFzHTHhBiRahWF0lDC8_D3FylGyT56Sgr23dUZ28tifxMTjbJMZcsFnSNnL9ssiuLfjgclLZlM61y9ibeaaEGTwroCMvBoyVtKaxVAa9X20OJaIskc8wsaSYwpl34YvmJaNmgpePB9q47XpuNWp63CD7PumJvEH9m3soU?session=0&fife" height="200" width="auto" /><br><br>Ramón Brull i el seu fill Rafael van cursar amb aprofitament dispar els estudis de Dret a la Universitat de València. En la ficció van poder estar en les mateixes aules per on també passaria Blasco Ibáñez. El novel·lista havia iniciat la llicenciatura de Dret Civil i Canònic en 1882, i va obtindre la titulació al novembre de 1888. Per a ell va ser una època en la qual ja començava a publicar els seus primers relats i se significava pel seu caràcter reivindicatiu; per exemple, va organitzar una vaga estudiantil a final de 1884 en favor de la llibertat de càtedra.<br><br>Per a arribar fins a la vella Universitat o edifici de l’Estudi General, creuant el carrer del Poeta Querol ens endinsem pel dels Llibrers i, vorejant la plaça del Col·legi del Patriarca, arribem al carrer de la Nau. Allí va tindre la seu una de les universitats més antigues d’Espanya, ja que, fundada en 1499, l’Estudi General es va inaugurar a l’octubre de 1502. En van ser alumnes o van oficiar com a professors personatges de la talla del filòsof Lluís Vives, el botànic Cavanilles o humanistes i erudits com Honorat Joan i Maians. Però la història de l’edifici va estar marcada així mateix per episodis ben dramàtics. Durant el setge napoleònic a la ciutat, en 1812, es va produir un incendi del qual únicament es van salvar el paranimf i la capella, i va ser a partir de 1840 que començaren les obres de reconstrucció del recinte universitari.]]></description>
+        <styleUrl>#icon-seq2-0-6-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/bjj7jcb6stqpntknmn816jh078/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vazGCwxHPUK8LKxfoOAznRXNcoPrliFzHTHhBiRahWF0lDC8_D3FylGyT56Sgr23dUZ28tifxMTjbJMZcsFnSNnL9ssiuLfjgclLZlM61y9ibeaaEGTwroCMvBoyVtKaxVAa9X20OJaIskc8wsaSYwpl34YvmJaNmgpePB9q47XpuNWp63CD7PumJvEH9m3soU?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3730605,39.4721919,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Parterre</name>
+        <description><![CDATA[<img src="https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/8pmmbirbjlnuo6rh74ckdbs6q0/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vb-cbdO03wR0bHwvY0NHWrYtg2soua5Bx5ZVZi-Im_cyhaQrCHvsANevlsmTA-l5gE_9i7lxnpkynSaBgDnlllpWwQ32ZeMBKNu3NtgCiLnkW66NeE6RS_dHYjPUPX_M-bgfsXIg_bA234KsZLumnUjxwQJZhAE3FNTczP5lui9yrQKnaR427Ka-dpui5Do1OM?session=0&fife" height="200" width="auto" /><br><br>El personatge de Don Andrés ha arribat a València per a convéncer Rafael Brull perquè no se’n vaja amb la seua estimada Leonora: això seria un gran desprestigi per a la família. Mentre el protagonista de la novel·la està confós per este argument, el seu passeig per la ciutat els conduïx fins al Parterre. En el nostre itinerari accedirem a estos jardins, construïts cap a 1850, pel carrer de la Nau.<br><br>El Parterre ocupa el centre de la plaça d’Alfons el Magnànim i, no obstant això, la figura que s’alça sobre l’alt pedestal és la del rei Jaume I el Conqueridor. Es tracta d’una estàtua eqüestre, modelada a l’estil del romanticisme historicista, en la qual l’actitud del monarca guiant el seu exèrcit atrau l’atenció del personatge novel·lesc i de tots aquells que la contemplen. Al cap i a la fi, esta era la intenció amb què es va promoure el projecte d’esculpir la imatge: commemorar el sisé centenari de la mort del rei, en 1276. A pesar d’això, la realització de l’escultura, després de ser encomanada a Agapit Vallmitjana, es va demorar diversos anys per falta de recursos econòmics per a sufragar-la. Col·locada en el seu lloc al juliol de 1891, en la seua elaboració es van fondre cinc canons i un obús que es trobaven al castell de Peníscola.]]></description>
+        <styleUrl>#icon-seq2-0-7-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0g-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/8pmmbirbjlnuo6rh74ckdbs6q0/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vb-cbdO03wR0bHwvY0NHWrYtg2soua5Bx5ZVZi-Im_cyhaQrCHvsANevlsmTA-l5gE_9i7lxnpkynSaBgDnlllpWwQ32ZeMBKNu3NtgCiLnkW66NeE6RS_dHYjPUPX_M-bgfsXIg_bA234KsZLumnUjxwQJZhAE3FNTczP5lui9yrQKnaR427Ka-dpui5Do1OM?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3705834,39.4718901,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pont del Real</name>
+        <description><![CDATA[<img src="https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/jpbapqfp9al6ijlstaoof18e40/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vbGScCUoDBWIQsaPDTZvxYSiD4DJw4EYFJt4HL0s-ZVll4B3VPoKw-VmP_f9HLB9rT8f10xACF4KLEgdqgWH0qK94vwBYyLKjEpfZtQng98xDpsbfrsTmvjxicJQNdfgLe_aK7q5j8zbVSjpaGlGTZVUXuw5rvLK7AMtSuMoa9pOh7SRABshKanJKy6g_5vhmk?session=0&fife" height="200" width="auto" /><br><br>Prosseguint el seu arbitrari passeig, Rafael i Don Andrés deixaven arrere els jardins del Parterre i, girant pel carrer de la Pau (antiga de Peris i Valero), recorrien la plaça de Tetuan fins a donar amb el pont del Real.<br><br>Este viaducte devia ser una de les eixides del recinte emmurallat de la ciutat. Per això, antigament també va ser denominat pont del Temple per la seua proximitat a la torre i porta del mateix nom (prèviament de Bab-el-Shadchar, on en l’actualitat se situen l’església i el palau del Temple). Això no obstant, es va perpetuar la denominació del Real per posar en contacte la ciutat amb el palau del mateix nom.<br><br>El pont de pedra que hui coneixem es va acabar de construir a un ritme accelerat, en 1598, després que els antics de fusta i altres materials no hagueren pogut resistir les envestides de successives riuades o que, com va ocórrer en 1528, el pes de la gran quantitat de gent que va acudir a rebre el rei Carles I provocara la seua solsida.<br><br>El del Real té deu arcs i està adornat amb dos casalicis amb les escultures de sant Vicent Ferrer i sant Vicent Màrtir, realitzades a començament del segle xvii per Vicent Leonart Esteve i que van ser substituïdes per altres idèntiques en resultar severament danyades durant la Guerra Civil. Així mateix, en 1801 es va alçar una porta del Real d’estil neoclàssic, enderrocada sis dècades després juntament amb les muralles, i de la qual és una rèplica l’actual porta de la Mar.]]></description>
+        <styleUrl>#icon-seq2-0-8-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/jpbapqfp9al6ijlstaoof18e40/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vbGScCUoDBWIQsaPDTZvxYSiD4DJw4EYFJt4HL0s-ZVll4B3VPoKw-VmP_f9HLB9rT8f10xACF4KLEgdqgWH0qK94vwBYyLKjEpfZtQng98xDpsbfrsTmvjxicJQNdfgLe_aK7q5j8zbVSjpaGlGTZVUXuw5rvLK7AMtSuMoa9pOh7SRABshKanJKy6g_5vhmk?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3689963,39.4761958,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Albereda</name>
+        <description><![CDATA[<img src="https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/5b5ti98sra42k1vtlqau7ancj8/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vbVE5z2h05OTRtuuB0Fz-uMC4ind2uf60R9062yEdXI-J6ZvrxqAMEyXXbJHJIsDHlhMy4o0yq3w91OuwAGmjbucFninlIuMFUmj0PB5irkfA2KvX348joBkYwMEiiEXfOM2gJWbfJOxBdyCif1RIS7ILCXOq-Nih2gDFcpTobQ3ZNfUtWgTCstUAeJY8plyyI?session=0&fife" height="200" width="auto" /><br><br>El final del trajecte de Rafael i Don Andrés desemboca en l’Albereda, escenari que, com s’indica en la novel·la, era del gust de la burgesia i la noblesa valenciana per a fer gala de la seua posició passejant en vistosos “carruatges”. Però l’Albereda és també un espai que remet immediatament a una València desapareguda. En els seus orígens es va conéixer com el Prat, transformat en 1677 en passeig amb tres fileres d’àlbers, i el que era el camí per a arribar des del mar al Palau Real havia sigut embellit amb noves millores a final del xvii. Més enllà de les reformes que s’han realitzat durant els segles, fins a arribar a la de l’arquitecte Javier Goerlich en 1932, interessa subratllar que l’atractiu d’esta zona situada en el marge esquerre del Túria girava entorn del Palau Real. Aquesta edificació, enderrocada en 1810, va ser en el segle xi lloc d’esbarjo o rahal d’Abd-al-Aziz. Però allí no solament es van allotjar monarques de la taifa valenciana. Amb les successives ampliacions i reedificacions hi van residir els reis de la corona aragonesa, els virreis o fins i tot va ser recinte on a final del xv va tindre la seu la Inquisició (aconseguint la seua època d’esplendor durant el regnat d’Alfons el Magnànim). En esta mateixa centúria, seguint la moda medieval recognoscible en diverses corts europees, en els jardins que envoltaven el palau (jardins del Real o de Vivers) s’havia reunit una col·lecció d’animals exòtics.<br><br><img src="https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/a3ugerr5rvv276qfngns31lku4/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vZyzX1pHz_eskkYEwDQ_twZQQmpRJdBfmWBEmZW2lBhGEtF6mSUCT4ZzAllKGqWjPFhQ_dx6vFKB9vpbZLGAftxHUgtSXCx8Sujz0CEvYTvXEifF8_p8TRcRnfsDuq15pgjIdULDqyM-HD61_PBwRRlMtDA9K3yIyx33ANFUicJdA_RYgJVR9Nprga4Xbvh17M?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-seq2-0-9-F9A825</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/5b5ti98sra42k1vtlqau7ancj8/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vbVE5z2h05OTRtuuB0Fz-uMC4ind2uf60R9062yEdXI-J6ZvrxqAMEyXXbJHJIsDHlhMy4o0yq3w91OuwAGmjbucFninlIuMFUmj0PB5irkfA2KvX348joBkYwMEiiEXfOM2gJWbfJOxBdyCif1RIS7ILCXOq-Nih2gDFcpTobQ3ZNfUtWgTCstUAeJY8plyyI?session=0&fife https://doc-14-7k-mymaps.googleusercontent.com/untrusted/hostedimage/ou6c6r4ot251igcmt16atv0meo/a3ugerr5rvv276qfngns31lku4/1657904400000/fVG0_v5bgk0pZ7uPHCGOPpdQPUPHkrKH/*/6AFzc1vZyzX1pHz_eskkYEwDQ_twZQQmpRJdBfmWBEmZW2lBhGEtF6mSUCT4ZzAllKGqWjPFhQ_dx6vFKB9vpbZLGAftxHUgtSXCx8Sujz0CEvYTvXEifF8_p8TRcRnfsDuq15pgjIdULDqyM-HD61_PBwRRlMtDA9K3yIyx33ANFUicJdA_RYgJVR9Nprga4Xbvh17M?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -0.3663302,39.4760322,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
