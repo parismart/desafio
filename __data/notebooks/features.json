@@ -1,0 +1,11 @@
+{
+    "age": "Int. ",
+    "gender": "String. (Hombre, Mujer, Otro) ",
+    "time": "Int. ENTERO ENTRE 30 y 480",
+    "route_type": "String. TIPO DE RUTA PREFEFIDA", 
+    "price": "String. (Gratis,1-50, +50) ",
+    "difficulty": "String. DIFICULTAD(alta o baja)",
+    "companions": "String. ACOMPAÑAMIENTO (solo, pareja, familia, amigos)",
+    "transport": "String. TRANSPORTE (A Pie, Bicicleta)"
+        
+}
