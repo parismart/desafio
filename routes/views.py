@@ -8,23 +8,10 @@ def index(request):
     return render(request, "index.html")
 
 def post_user(request):
-    import datetime
-
-    age = request.GET.get('age', '0')
-    gender = request.GET.get('gender', 'None')
-    time = request.GET.get('time', '0')
-    type = request.GET.get('type', 'None')
-    price = request.GET.get('price', 'None')
-    difficulty = request.GET.get('difficulty', 'None')
-    companions = request.GET.get('companions', 'None')
-    transport = request.GET.get('transport', 'None')
-    time_stamp = str(datetime.datetime.now().time())
-    user_values = (age, gender, time, type, price, difficulty, companions, transport, time_stamp)
-
-
     connection = connect_database(user, password, host, port, database)
     cursor = connection.cursor()
-    insert_query = f"""INSERT INTO routes_users(age,
+    values = get_values(request)
+    query = f"""INSERT INTO routes_users(age,
                 gender,
                 time,
                 type,
@@ -33,15 +20,10 @@ def post_user(request):
                 companions,
                 transport,
                 time_stamp) values (%s,%s,%s,%s,%s,%s,%s,%s,%s) RETURNING id"""
-
-    cursor.execute(insert_query, user_values)
+    cursor.execute(query, values)
     connection.commit()
     user_id = cursor.fetchall()
-    
-    if (connection):
-        cursor.close()
-        connection.close()
-
+    close_connect(connection, cursor)
     return HttpResponse(json.dumps({'user_id':user_id[0]}, ensure_ascii=False), content_type="application/json")
 
 def routes(request):
@@ -49,7 +31,6 @@ def routes(request):
     cursor = connection.cursor()
     cursor.execute("SELECT * FROM routes_rutas ORDER BY id;")
     routes = cursor.fetchall()
-
     rutas = []
     for idx, route in enumerate(routes):
         ruta={}
@@ -66,55 +47,32 @@ def routes(request):
         ruta['transport'] = route[11]
         ruta['type'] = route[12]
         ruta['url'] = route[10]
-
-        points = []
-
         cursor = connection.cursor()
         query = f'''SELECT * 
         FROM routes_poi as p
         WHERE p.route_id = {idx+1};'''
         cursor.execute(query)
         pois = cursor.fetchall()
-
-        for poi in pois:
-            point={}
-            point['poi_id'] = int(poi[0])
-            point['name'] = poi[1]
-            point['description_es'] = poi[5]
-            point['description_va'] = poi[4]
-            point['description_en'] = poi[6]
-            point['latitude'] = poi[2]
-            point['longitude'] = poi[3]
-            point['image'] = poi[7]
-            points.append(point)
-
-        ruta['poi'] = points
+        ruta['poi'] = json_poi(pois)
         rutas.append(ruta)
-
-    if (connection):
-        cursor.close()
-        connection.close()
+    close_connect(connection, cursor)
     return HttpResponse(json.dumps(rutas, ensure_ascii=False), content_type="application/json")
 
 def route_id(request):
     connection = connect_database(user, password, host, port, database)
     cursor = connection.cursor()
-
     id = int(request.GET.get('id', '1'))
     query_rutas = f"SELECT id FROM routes_rutas;"
     query_ruta = f"SELECT * FROM routes_rutas WHERE id = {id};"
     query_poi = "SELECT * FROM routes_poi;"
-
     cursor.execute(query_rutas)
     index = cursor.fetchall()
-
     ruta={}
     if (id,) in index:
         cursor.execute(query_ruta)
         route = cursor.fetchall()
         cursor.execute(query_poi)
         pois = cursor.fetchall()
-
         ruta['route_id'] = int(route[0][0])
         ruta['name'] = route[0][1]
         ruta['difficulty'] = route[0][6]
@@ -128,57 +86,22 @@ def route_id(request):
         ruta['transport'] = route[0][11]
         ruta['type'] = route[0][12]
         ruta['url'] = route[0][10]
-
-        points = []
-
         cursor = connection.cursor()
         query = f'''SELECT * FROM routes_poi WHERE route_id = {id};'''
         cursor.execute(query)
         pois = cursor.fetchall()
-
-        for poi in pois:
-            point={}
-            point['poi_id'] = int(poi[0])
-            point['name'] = poi[1]
-            point['description_es'] = poi[5]
-            point['description_va'] = poi[4]
-            point['description_en'] = poi[6]
-            point['latitude'] = poi[2]
-            point['longitude'] = poi[3]
-            point['image'] = poi[7]
-            points.append(point)
-
-        ruta['poi'] = points
-        
+        ruta['poi'] = json_poi(pois)  
     else:
         ruta['error'] = 'ID not found'
-
-    if (connection):
-        cursor.close()
-        connection.close()
-
+    close_connect(connection, cursor)
     return HttpResponse(json.dumps(ruta, ensure_ascii=False), content_type="application/json")
 
 def poi(request):
     connection = connect_database(user, password, host, port, database)
-
     cursor = connection.cursor()
     cursor.execute("SELECT * FROM routes_poi ORDER BY id;")
     pois = cursor.fetchall()
-
-    points = []
-    for poi in pois:
-        point={}
-        point['poi_id'] = int(poi[0])
-        point['name'] = poi[1]
-        point['description_es'] = poi[5]
-        point['description_va'] = poi[4]
-        point['description_en'] = poi[6]
-        point['latitude'] = poi[2]
-        point['longitude'] = poi[3]
-        point['image'] = poi[7]
-        points.append(point)
-
+    points = json_poi(pois)
     if (connection):
         cursor.close()
         connection.close()
@@ -186,20 +109,14 @@ def poi(request):
 
 def poi_id(request):
     connection = connect_database(user, password, host, port, database)
-
-    id = int(request.GET.get('id', '1'))
     cursor = connection.cursor()
-
-    query = f'''SELECT * FROM routes_poi WHERE id = {id};'''
-    cursor.execute(query)
+    id = int(request.GET.get('id', '1'))
+    cursor.execute(f'''SELECT * FROM routes_poi WHERE id = {id};''')
     poi = cursor.fetchall()
-
     cursor.execute("SELECT id FROM routes_poi;")
     index = cursor.fetchall()
     point={}
-    
     if (id,) in index:
-
         point['poi_id'] = int(poi[0][0])
         point['name'] = poi[0][1]
         point['description_es'] = poi[0][5]
@@ -208,12 +125,7 @@ def poi_id(request):
         point['latitude'] = poi[0][2]
         point['longitude'] = poi[0][3]
         point['image'] = poi[0][7]
-
     else:
         point['error'] = 'ID not found'
-
-    if (connection):
-        cursor.close()
-        connection.close()
-
+    close_connect(connection, cursor)
     return HttpResponse(json.dumps(point, ensure_ascii=False), content_type="application/json")
