@@ -25,7 +25,7 @@ def json_poi(pois):
         point['longitude'] = poi[3]
         point['image'] = poi[7]
         points.append(point)
-    return(point)
+    return(points)
 
 def get_values(request):
     import datetime
