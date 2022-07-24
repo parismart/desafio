@@ -18,8 +18,8 @@ urlpatterns = [
     path("", routes.views.index, name="index"),
     path("admin/", admin.site.urls),
     path("getRoutes/", routes.views.routes, name="routes"),
-    path("getRouteById", routes.views.route_id, name="route"),
+    path("getRouteById/", routes.views.route_id, name="route"),
     path("getPoi/", routes.views.poi, name="poi"),
-    path("getPoiById", routes.views.poi_id, name="poi_id"),
-    path("postUser", routes.views.post_user, name="user"),
+    path("getPoiById/", routes.views.poi_id, name="poi_id"),
+    path("postUser/", routes.views.post_user, name="user"),
 ]
