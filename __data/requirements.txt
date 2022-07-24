@@ -7,3 +7,8 @@ selenium
 beautifulsoup4
 webdriver-manager
 lxml
+Scikit-learn
+xgboost
+lightgbm
+catboost
+keras
