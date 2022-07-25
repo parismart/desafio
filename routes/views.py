@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.template.defaulttags import csrf_token
 from django.http import HttpResponse
 from routes.utils import *
 from routes.db_settings import *
@@ -7,6 +8,25 @@ import json
 def index(request):
     return render(request, "index.html")
 
+def predict(request):
+    import pickle
+    connection = connect_database(user, password, host, port, database)
+    cursor = connection.cursor()
+    id = get_values(request)
+    cursor.execute(f"""SELECT * FROM routes_users WHERE id = {id}""")
+    user = cursor.fetchall()
+    filename = 'finished_model.pkl'
+    with open(filename, 'wb') as archivo_entrada:
+        model = pickle.load(archivo_entrada)
+
+    predict = model.predict_proba(user)
+
+
+    close_connect(connection, cursor)
+    return HttpResponse(json.dumps({'user_id':user_id[0]}, ensure_ascii=False), content_type="application/json")
+
+
+@csrf_token
 def post_user(request):
     connection = connect_database(user, password, host, port, database)
     cursor = connection.cursor()
@@ -14,7 +34,7 @@ def post_user(request):
     query = f"""INSERT INTO routes_users(age,
                 gender,
                 time,
-                type,
+                route_type,
                 price,
                 difficulty,
                 companions,

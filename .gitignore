@@ -3,4 +3,5 @@ venv
 staticfiles
 .env
 db.sqlite3
+routes/db_settings.py
 getting-started/*

@@ -6,6 +6,5 @@
     "price": "String. (Gratis,1-50, +50) ",
     "difficulty": "String. DIFICULTAD(alta o baja)",
     "companions": "String. ACOMPAÑAMIENTO (solo, pareja, familia, amigos)",
-    "transport": "String. TRANSPORTE (A Pie, Bicicleta)"
-        
+    "transport": "String. TRANSPORTE (A Pie, Bicicleta)"     
 }
