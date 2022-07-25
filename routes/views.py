@@ -35,11 +35,11 @@ def predict(request):
     get_user = pd.get_dummies(get_user, prefix=['age', 'gender', 'type', 'diff', 'comp', 'trans'], 
     columns=['age', 'gender', 'type_route', 'difficulty','accompaniment', 'transport'])
     features = ['time', 'price', 'age_+45', 'age_0-18', 'age_18-35',
-       'age_35-45', 'gender_Hombre', 'gender_Mujer',
-       'gender_Otro', 'type_Histórica', 'type_Literaria',
-       'type_Patrimonio', 'type_Turística', 'diff_Alta', 'diff_Baja',
-       'comp_Amigos', 'comp_Familia', 'comp_Pareja', 'comp_Solo',
-       'trans_Bicicleta', 'trans_A Pie']
+       'age_35-45', 'gender_hombre', 'gender_mujer',
+       'gender_otro', 'type_historica', 'type_literaria',
+       'type_patrimonio', 'type_turistica', 'diff_alta', 'diff_baja',
+       'comp_amigos', 'comp_familia', 'comp_pareja', 'comp_solo',
+       'trans_bicicleta', 'trans_a pie']
     get_user = pd.DataFrame(data = get_user, columns=features)
     get_user = get_user.fillna(0)
     # Transform Price

@@ -1,10 +1,10 @@
 {
     "age": "Int. AÑO DE NACIMIENTO",
-    "gender": "String. (Hombre, Mujer, Otro) ",
-    "time": "Int. ENTERO ENTRE 30 y 480",
-    "route_type": "String. TIPO DE RUTA PREFEFIDA", 
-    "price": "String. (Gratis,1-50, +50) ",
+    "gender": "String. (hombre, mujer, otro) ",
+    "time": "Int. DURACION en minutos (Entre 30 y 480)",
+    "route_type": "String. TIPO DE RUTA PREFEFIDA ('historica','literaria','Patrimonio','turistica')", 
+    "price": "String. (gratis, 1-50, +50) ",
     "difficulty": "String. DIFICULTAD(alta o baja)",
     "companions": "String. ACOMPAÑAMIENTO (solo, pareja, familia, amigos)",
-    "transport": "String. TRANSPORTE (A Pie, Bicicleta)"     
+    "transport": "String. TRANSPORTE (a pie, bicicleta)"     
 }
