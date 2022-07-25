@@ -40,3 +40,23 @@ def get_values(request):
     time_stamp = str(datetime.datetime.now().time())
     user_values = (age, gender, time, type, price, difficulty, companions, transport, time_stamp)
     return(user_values)
+
+def mapping(x):
+    if x == 'Gratis':
+        return 1
+    elif x == '1-50 Euros':
+        return 2
+    elif x == '+50 Euros':
+        return 3
+    else:
+        return 9999
+
+def mapping_age(x):
+    if (x > 2004):
+        return "0-18"
+    elif (x < 2004) & (x > 1987):
+        return "18-35"
+    elif (x < 1987) & (x > 1977):
+        return "35-45"
+    else:
+        return "+45"
