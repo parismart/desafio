@@ -4,3 +4,4 @@ django-heroku
 requests
 pandas
 psycopg2
+django-cors-headers
