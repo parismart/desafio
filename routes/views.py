@@ -44,7 +44,7 @@ def post_user(request):
     connection.commit()
     user_id = cursor.fetchall()
     close_connect(connection, cursor)
-    return HttpResponse(json.dumps({'user_id':user_id[0]}, ensure_ascii=False), content_type="application/json")
+    return HttpResponse(json.dumps({'user_id':user_id[0][0]}, ensure_ascii=False), content_type="application/json")
 
 def routes(request):
     connection = connect_database(user, password, host, port, database)
