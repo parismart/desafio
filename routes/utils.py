@@ -32,7 +32,7 @@ def get_values(request):
     age = request.GET.get('age', '0')
     gender = request.GET.get('gender', 'None')
     time = request.GET.get('time', '0')
-    type = request.GET.get('type', 'None')
+    type = request.GET.get('route_type', 'None')
     price = request.GET.get('price', 'None')
     difficulty = request.GET.get('difficulty', 'None')
     companions = request.GET.get('companions', 'None')

@@ -34,7 +34,7 @@ def post_user(request):
     query = f"""INSERT INTO routes_users(age,
                 gender,
                 time,
-                route_type,
+                type,
                 price,
                 difficulty,
                 companions,
