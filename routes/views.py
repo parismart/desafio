@@ -49,8 +49,7 @@ def predict(request):
     pred = model.predict(get_user)
 
     close_connect(connection, cursor)
-    return HttpResponse([user_id, pred])
-
+    return HttpResponse(json.dumps({'recommended_route': pred}, ensure_ascii=False), content_type="application/json")
 
 @csrf_exempt
 def post_user(request):

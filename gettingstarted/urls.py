@@ -22,5 +22,5 @@ urlpatterns = [
     path("getPoi/", routes.views.poi, name="poi"),
     path("getPoiById/", routes.views.poi_id, name="poi_id"),
     path("postUser/", routes.views.post_user, name="user"),
-    path("getRecomendation/", routes.views.predict, name="predict"),
+    path("getRecommendation/", routes.views.predict, name="predict"),
 ]
