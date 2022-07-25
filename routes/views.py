@@ -26,7 +26,7 @@ def predict(request):
     return HttpResponse(json.dumps({'user_id':user_id[0]}, ensure_ascii=False), content_type="application/json")
 
 
-@csrf_token
+# @csrf_token
 def post_user(request):
     connection = connect_database(user, password, host, port, database)
     cursor = connection.cursor()
