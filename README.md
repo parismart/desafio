@@ -7,11 +7,54 @@ https://api-routes-data.herokuapp.com/getPoi/
 # Endpoint Get Route By ID:
 https://api-routes-data.herokuapp.com/getRouteById/?id=24
 
+Return :{
+  "route_id": "String o Int. ID DE LA RUTA",
+  "name": "String. NOMBRE DE LA RUTA",
+  "difficulty": "String. DIFICULTAD",
+  "image": "String. URL DE LA IMAGEN DE LA RUTA",
+  "duration": "Int. DURACIÓN EN MINUTOS",
+  "startingPoint": "String PUNTO DE INICIO",
+  "endingPoint": "String PUNTO DE FINALIZACIÓN",
+  "description_es": "String. DESCRIPCIÓN",
+  "description_va": "String. DESCRIPCIÓN",
+  "description_en": "String. DESCRIPCIÓN",
+  "description": "String. DESCRIPCIÓN",
+  "transport": ["String. ETIQUETA"],
+  "type": ["String. ETIQUETA"],
+  "url": "String. URL DE LA RUTA",
+  "pois": [
+    {
+      "poi_id": "String o Int. ID DEL PUNTO DE INTERÉS",
+      "name": "String. NOMBRE DEL PUNTO DE INTERÉS",
+      "description_es": "String. DESCRIPCIÓN DEL PUNTO DE INTERÉS",
+      "description_va": "String. DESCRIPCIÓN DEL PUNTO DE INTERÉS",
+      "description_en": "String. DESCRIPCIÓN DEL PUNTO DE INTERÉS",
+      "latitude": "Double. LATITUD DEL PUNTO DE INTERÉS",
+      "longitude": "Double. LONGITUD DEL PUNTO DE INTERÉS"
+      "image": "String. URL DE LA IMAGEN DEL PUNTO DE INTERÉS",
+
+    }
+  ]
+}
+
+Si la ID no esta en el rango (1-24)
 Return: {"error": "ID not found"}
 
 # Endpoint Get Point of Interes By ID:
 https://api-routes-data.herokuapp.com/getPoiById/?id=42
 
+Return: {
+      "poi_id": "String o Int. ID DEL PUNTO DE INTERÉS",
+      "name": "String. NOMBRE DEL PUNTO DE INTERÉS",
+      "description_es": "String. DESCRIPCIÓN DEL PUNTO DE INTERÉS",
+      "description_va": "String. DESCRIPCIÓN DEL PUNTO DE INTERÉS",
+      "description_en": "String. DESCRIPCIÓN DEL PUNTO DE INTERÉS",
+      "latitude": "Double. LATITUD DEL PUNTO DE INTERÉS",
+      "longitude": "Double. LONGITUD DEL PUNTO DE INTERÉS"
+      "image": "String. URL DE LA IMAGEN DEL PUNTO DE INTERÉS",
+    }
+
+Si la ID no esta en el rango (1-293)
 Return: {"error": "ID not found"}
 
 # Endpoint Get Recommended Route:
