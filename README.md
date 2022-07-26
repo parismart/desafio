@@ -1,13 +1,40 @@
-# Python: Getting Started
+# Endpoint Get All Routes:
+https://api-routes-data.herokuapp.com/getRoutes/
 
-A barebones Django app, which can easily be deployed to Heroku.
+# Endpoint Get All Point of Interest:
+https://api-routes-data.herokuapp.com/getPoi/
 
-This application supports the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out for instructions on how to deploy this app to Heroku and also run it locally.
+# Endpoint Get Route By ID:
+https://api-routes-data.herokuapp.com/getRouteById/?id=24
 
-Alternatively, you can deploy it using this Heroku Button:
+Return: {"error": "ID not found"}
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+# Endpoint Get Point of Interes By ID:
+https://api-routes-data.herokuapp.com/getPoiById/?id=42
 
-For more information about using Python on Heroku, see these Dev Center articles:
+Return: {"error": "ID not found"}
 
-- [Python on Heroku](https://devcenter.heroku.com/categories/python)
+# Endpoint Get Recommended Route:
+https://api-routes-data.herokuapp.com/getRecommendation/?id=42
+
+Return: {"recommended_route_id": 42}
+Return: {"error": "ID not found"}
+
+# Endpoint Post User:
+https://api-routes-data.herokuapp.com/postUser/
+
+Admite mayusculas, minusculas y acentos
+
+Return: {"user_id": 42}
+Return: {"name_parameter": "Invalid parameter"}
+
+{
+    "age": "Int. (1900-2022)",
+    "gender": "String. (hombre, mujer, otro) ",
+    "time": "Int. (0-480)",
+    "route_type": "String. ('historica','literaria','Patrimonio','turistica')", 
+    "price": "String. (gratis, 1-50, +50) ",
+    "difficulty": "String. (alta, baja)",
+    "companions": "String.  (solo, pareja, familia, amigos)",
+    "transport": "String.  (a pie, bicicleta)"
+}

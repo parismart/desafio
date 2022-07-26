@@ -30,7 +30,7 @@ def json_poi(pois):
 def get_values(request):
     import datetime
     from unidecode import unidecode
-    age = request.GET.get('age', '1985')
+    age = int(request.GET.get('age', '1985'))
     gender = unidecode(request.GET.get('gender', 'otro').lower().strip())
     time = int(request.GET.get('time', '90'))
     route_type = unidecode(request.GET.get('route_type', 'historica').lower().strip())
@@ -44,15 +44,13 @@ def get_values(request):
 
 def check_values(values):
     error = {}
-    if int(values[0]) == '1985':
-        error['age'] = "Empty parameter"
-    if len(values[0]) > 4:
+    if values[0] > 2022:
         error['age'] = "Hey Doc. Nos veremos a la 1:15 a.m. en el Centro Comercial Twin Pines."
-    if len(values[0]) < 4:
+    if values[0] < 1900:
         error['age'] = "Now he's dead!!!"
     if (values[1] != "hombre") & (values[1] != "mujer") & (values[1] != "otro"):
         error['gender'] = "Invalid parameter"
-    if (int(values[2]) < 0) | (int(values[2]) > 480):
+    if (values[2] < 0) | (values[2] > 480):
         error['time'] = "Invalid parameter"
     if (values[3] != "historica") & (values[3] != "turistica") & (values[3] != "literaria") & (values[3] != "patrimonio"):
         error['route_type'] = "Invalid parameter"
