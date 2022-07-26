@@ -30,7 +30,7 @@ def json_poi(pois):
 def get_values(request):
     import datetime
     from unidecode import unidecode
-    age = int(request.GET.get('age', '1985'))
+    age = request.GET.get('age', '1985')
     gender = unidecode(request.GET.get('gender', 'otro').lower().strip())
     time = int(request.GET.get('time', '90'))
     route_type = unidecode(request.GET.get('route_type', 'historica').lower().strip())
@@ -68,11 +68,11 @@ def check_values(values):
     
 
 def mapping(x):
-    if x == 'Gratis':
+    if x == 'gratis':
         return 1
-    elif x == '1-50 Euros':
+    elif x == '1-50':
         return 2
-    elif x == '+50 Euros':
+    elif x == '+50':
         return 3
     else:
         return 9999

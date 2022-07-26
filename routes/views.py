@@ -19,9 +19,9 @@ def predict(request):
     cursor.execute(f"""SELECT * FROM routes_users WHERE id = {id}""")
     user_id = cursor.fetchall()
     # Import Model
-    filename = 'routes/model/finished_model.pkl'
+    filename = 'routes/model/mlp_model.pkl'
     with open(filename, 'rb') as archivo_entrada:
-        model = pickle.load(archivo_entrada)
+         model = pickle.load(archivo_entrada)
     # Format Array
     user_id = np.array(user_id[0][1:-1]).reshape(1,8)
     # Transform Age
@@ -35,11 +35,11 @@ def predict(request):
     get_user = pd.get_dummies(get_user, prefix=['age', 'gender', 'type', 'diff', 'comp', 'trans'], 
     columns=['age', 'gender', 'type_route', 'difficulty','accompaniment', 'transport'])
     features = ['time', 'price', 'age_+45', 'age_0-18', 'age_18-35',
-       'age_35-45', 'gender_hombre', 'gender_mujer',
-       'gender_otro', 'type_historica', 'type_literaria',
-       'type_patrimonio', 'type_turistica', 'diff_alta', 'diff_baja',
-       'comp_amigos', 'comp_familia', 'comp_pareja', 'comp_solo', 'trans_a pie',
-       'trans_bicicleta']
+                'age_35-45', 'gender_hombre', 'gender_mujer',
+                'gender_otro', 'type_historica', 'type_literaria',
+                'type_patrimonio', 'type_turistica', 'diff_alta', 'diff_baja',
+                'comp_amigos', 'comp_familia', 'comp_pareja', 'comp_solo', 'trans_a pie',
+                'trans_bicicleta']
     get_user = pd.DataFrame(data = get_user, columns=features)
     get_user = get_user.fillna(0)
     # Transform Price
