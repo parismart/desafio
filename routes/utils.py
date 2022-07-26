@@ -32,7 +32,7 @@ def get_values(request):
     from unidecode import unidecode
     age = request.GET.get('age', '1985')
     gender = unidecode(request.GET.get('gender', 'otro').lower().strip())
-    time = request.GET.get('time', '90')
+    time = int(request.GET.get('time', '90'))
     route_type = unidecode(request.GET.get('route_type', 'historica').lower().strip())
     price = unidecode(request.GET.get('price', 'gratis').lower().strip())
     difficulty = unidecode(request.GET.get('difficulty', 'baja').lower().strip())
@@ -44,7 +44,7 @@ def get_values(request):
 
 def check_values(values):
     error = {}
-    if values[0] == '0':
+    if int(values[0]) == '1985':
         error['age'] = "Empty parameter"
     if len(values[0]) > 4:
         error['age'] = "Hey Doc. Nos veremos a la 1:15 a.m. en el Centro Comercial Twin Pines."
@@ -68,11 +68,11 @@ def check_values(values):
     
 
 def mapping(x):
-    if x == 'Gratis':
+    if x == 'gratis':
         return 1
-    elif x == '1-50 Euros':
+    elif x == '1-50':
         return 2
-    elif x == '+50 Euros':
+    elif x == '+50':
         return 3
     else:
         return 9999
