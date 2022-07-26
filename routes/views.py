@@ -38,8 +38,8 @@ def predict(request):
        'age_35-45', 'gender_hombre', 'gender_mujer',
        'gender_otro', 'type_historica', 'type_literaria',
        'type_patrimonio', 'type_turistica', 'diff_alta', 'diff_baja',
-       'comp_amigos', 'comp_familia', 'comp_pareja', 'comp_solo',
-       'trans_bicicleta', 'trans_a pie']
+       'comp_amigos', 'comp_familia', 'comp_pareja', 'comp_solo', 'trans_a pie',
+       'trans_bicicleta']
     get_user = pd.DataFrame(data = get_user, columns=features)
     get_user = get_user.fillna(0)
     # Transform Price
