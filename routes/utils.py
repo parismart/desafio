@@ -30,7 +30,7 @@ def json_poi(pois):
 def get_values(request):
     import datetime
     from unidecode import unidecode
-    age = request.GET.get('age', '0')
+    age = int(request.GET.get('age', '1985'))
     gender = unidecode(request.GET.get('gender', 'otro').lower().strip())
     time = int(request.GET.get('time', '90'))
     route_type = unidecode(request.GET.get('route_type', 'historica').lower().strip())
