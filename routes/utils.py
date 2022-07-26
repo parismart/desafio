@@ -43,26 +43,37 @@ def get_values(request):
     return(user_values)
 
 def check_values(values):
-    error = {}
+    # error = {}
+    values = list(values)
     if values[0] > 2022:
-        error['age'] = "Hey Doc. Nos veremos a la 1:15 a.m. en el Centro Comercial Twin Pines."
+        values[0] = 2022
+        # error['age'] = "Hey Doc. Nos veremos a la 1:15 a.m. en el Centro Comercial Twin Pines."
     if values[0] < 1900:
-        error['age'] = "Now he's dead!!!"
+        values[0] = 1900
+        # error['age'] = "Now he's dead!!!"
     if (values[1] != "hombre") & (values[1] != "mujer") & (values[1] != "otro"):
-        error['gender'] = "Invalid parameter"
+        values[1] = otro
+        # error['gender'] = "Invalid parameter"
     if (values[2] < 0) | (values[2] > 480):
-        error['time'] = "Invalid parameter"
+        values[2] = 90
+        # error['time'] = "Invalid parameter"
     if (values[3] != "historica") & (values[3] != "turistica") & (values[3] != "literaria") & (values[3] != "patrimonio"):
-        error['route_type'] = "Invalid parameter"
+        values[3] = "turistica"
+        # error['route_type'] = "Invalid parameter"
     if (values[4] != "gratis") & (values[4] != "1-50") & (values[4] != "+50"):
-        error['price'] = "Invalid parameter"
+        values[4] = "gratis"
+        # error['price'] = "Invalid parameter"
     if (values[5] != "baja") & (values[5] != "alta"):
-        error['difficulty'] = "Invalid parameter"
+        values[5] = "baja"
+        # error['difficulty'] = "Invalid parameter"
     if (values[6] != "solo") & (values[6] != "pareja")& (values[6] != "familia") & (values[6] != "amigos"):
-        error['companions'] = "Invalid parameter"
+        values[6] = "solo"
+        # error['companions'] = "Invalid parameter"
     if (values[7] != "a pie") & (values[7] != "bicicleta"):
-        error['transport'] = "Invalid parameter"
-    return error
+        values[7] = "a pie"   
+        # error['transport'] = "Invalid parameter"
+    # return error
+    return(tuple(values))
     
 
 def mapping(x):

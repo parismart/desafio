@@ -62,7 +62,7 @@ def post_user(request):
     connection = connect_database(user, password, host, port, database)
     cursor = connection.cursor()
     values = get_values(request)
-    error = check_values(values)
+    values = check_values(values)
     query = f"""INSERT INTO routes_users(age,
                 gender,
                 time,
@@ -72,13 +72,13 @@ def post_user(request):
                 companions,
                 transport,
                 time_stamp) values (%s,%s,%s,%s,%s,%s,%s,%s,%s) RETURNING id"""
-    if error != {}:
-        res = error
-    else:
-        cursor.execute(query, values)
-        connection.commit()
-        user_id = cursor.fetchall()
-        res = {'user_id':user_id[0][0]}
+    # if error != {}:
+    #     res = error
+    # else:
+    cursor.execute(query, values)
+    connection.commit()
+    user_id = cursor.fetchall()
+    res = {'user_id':user_id[0][0]}
     close_connect(connection, cursor)
 
     return HttpResponse(json.dumps(res, ensure_ascii=False), content_type="application/json")
