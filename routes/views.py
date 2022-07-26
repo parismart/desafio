@@ -49,7 +49,8 @@ def predict(request):
     pred = model.predict(get_user)
 
     close_connect(connection, cursor)
-    return HttpResponse(json.dumps({'recommended_route_id': int(pred[0])+1}), content_type="application/json")
+    return HttpResponse(user_id)
+    # return HttpResponse(json.dumps({'recommended_route_id': int(pred[0])+1}), content_type="application/json")
 
 @csrf_exempt
 def post_user(request):
@@ -60,7 +61,7 @@ def post_user(request):
     query = f"""INSERT INTO routes_users(age,
                 gender,
                 time,
-                type,
+                route_type,
                 price,
                 difficulty,
                 companions,
