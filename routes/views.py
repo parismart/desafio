@@ -16,38 +16,46 @@ def predict(request):
     connection = connect_database(user, password, host, port, database)
     cursor = connection.cursor()
     id = int(request.GET.get('id', '1'))
-    cursor.execute(f"""SELECT * FROM routes_users WHERE id = {id}""")
-    user_id = cursor.fetchall()
-    # Import Model
-    filename = 'routes/model/mlp_model.pkl'
-    with open(filename, 'rb') as archivo_entrada:
-         model = pickle.load(archivo_entrada)
-    # Format Array
-    user_id = np.array(user_id[0][1:-1]).reshape(1,8)
-    # Transform Age
-    user_id[0][0]  = mapping_age(int(user_id[0][0]))
-    # Transform Time
-    user_id[0][2] = int(user_id[0][2])/60
-    # To DataFrame
-    get_user = pd.DataFrame(data = user_id, index = ['1'], 
-    columns = ['age', 'gender', 'time', 'type_route', 'price', 'difficulty', 'accompaniment', 'transport'])    
-    # Get Dummies
-    get_user = pd.get_dummies(get_user, prefix=['age', 'gender', 'type', 'diff', 'comp', 'trans'], 
-    columns=['age', 'gender', 'type_route', 'difficulty','accompaniment', 'transport'])
-    features = ['time', 'price', 'age_+45', 'age_0-18', 'age_18-35',
-                'age_35-45', 'gender_hombre', 'gender_mujer',
-                'gender_otro', 'type_historica', 'type_literaria',
-                'type_patrimonio', 'type_turistica', 'diff_alta', 'diff_baja',
-                'comp_amigos', 'comp_familia', 'comp_pareja', 'comp_solo', 'trans_a pie',
-                'trans_bicicleta']
-    get_user = pd.DataFrame(data = get_user, columns=features)
-    get_user = get_user.fillna(0)
-    # Transform Price
-    get_user['price'] = get_user['price'].apply(mapping)
-    # Prediction
-    pred = model.predict(get_user)
+    # check id
+    cursor.execute("SELECT id FROM routes_users;")
+    index = cursor.fetchall()
+    res = {}
+    if (id,) in index:
+        cursor.execute(f"""SELECT * FROM routes_users WHERE id = {id}""")
+        user_id = cursor.fetchall()
+        # Import Model
+        filename = 'routes/model/mlp_model.pkl'
+        with open(filename, 'rb') as archivo_entrada:
+            model = pickle.load(archivo_entrada)
+        # Format Array
+        user_id = np.array(user_id[0][1:-1]).reshape(1,8)
+        # Transform Age
+        user_id[0][0]  = mapping_age(int(user_id[0][0]))
+        # Transform Time
+        user_id[0][2] = int(user_id[0][2])/60
+        # To DataFrame
+        get_user = pd.DataFrame(data = user_id, index = ['1'], 
+        columns = ['age', 'gender', 'time', 'type_route', 'price', 'difficulty', 'accompaniment', 'transport'])    
+        # Get Dummies
+        get_user = pd.get_dummies(get_user, prefix=['age', 'gender', 'type', 'diff', 'comp', 'trans'], 
+        columns=['age', 'gender', 'type_route', 'difficulty','accompaniment', 'transport'])
+        features = ['time', 'price', 'age_+45', 'age_0-18', 'age_18-35',
+                    'age_35-45', 'gender_hombre', 'gender_mujer',
+                    'gender_otro', 'type_historica', 'type_literaria',
+                    'type_patrimonio', 'type_turistica', 'diff_alta', 'diff_baja',
+                    'comp_amigos', 'comp_familia', 'comp_pareja', 'comp_solo', 'trans_a pie',
+                    'trans_bicicleta']
+        get_user = pd.DataFrame(data = get_user, columns=features)
+        get_user = get_user.fillna(0)
+        # Transform Price
+        get_user['price'] = get_user['price'].apply(mapping)
+        # Prediction
+        pred = model.predict(get_user)
+        res['recommended_route_id'] = int(pred[0])+1
+    else:
+        res['error'] = 'ID not found'
     close_connect(connection, cursor)
-    return HttpResponse(json.dumps({'recommended_route_id': int(pred[0])+1}), content_type="application/json")
+    return HttpResponse(json.dumps(res), content_type="application/json")
 
 @csrf_exempt
 def post_user(request):
