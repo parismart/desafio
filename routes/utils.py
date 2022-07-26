@@ -38,7 +38,7 @@ def get_values(request):
     difficulty = unidecode(request.GET.get('difficulty', 'baja').lower().strip())
     companions = unidecode(request.GET.get('companions', 'solo').lower().strip())
     transport = unidecode(request.GET.get('transport', 'a pie').lower().strip().replace('-',' '))
-    time_stamp = str(datetime.datetime.now().time())
+    time_stamp = str(datetime.datetime.now())
     user_values = (age, gender, time, route_type, price, difficulty, companions, transport, time_stamp)
     return(user_values)
 
@@ -46,6 +46,10 @@ def check_values(values):
     error = {}
     if values[0] == '0':
         error['age'] = "Empty parameter"
+    if len(values[0]) > 4:
+        error['age'] = "Hey Doc. Nos veremos a la 1:15 a.m. en el Centro Comercial Twin Pines."
+    if len(values[0]) < 4:
+        error['age'] = "Now he's dead!!!"
     if (values[1] != "hombre") & (values[1] != "mujer") & (values[1] != "otro"):
         error['gender'] = "Invalid parameter"
     if (int(values[2]) < 0) | (int(values[2]) > 480):
