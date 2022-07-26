@@ -36,7 +36,7 @@ def get_values(request):
     route_type = unidecode(request.GET.get('route_type', 'historica').lower().strip())
     price = unidecode(request.GET.get('price', 'gratis').lower().strip())
     difficulty = unidecode(request.GET.get('difficulty', 'baja').lower().strip())
-    companions = unidecode(request.GET.get('companions', 'solo').lower().strip())
+    companions = unidecode(request.GET.get('companions', 'pareja').lower().strip())
     transport = unidecode(request.GET.get('transport', 'a pie').lower().strip().replace('-',' '))
     time_stamp = str(datetime.datetime.now())
     user_values = (age, gender, time, route_type, price, difficulty, companions, transport, time_stamp)
@@ -52,13 +52,13 @@ def check_values(values):
         values[0] = 1900
         # error['age'] = "Now he's dead!!!"
     if (values[1] != "hombre") & (values[1] != "mujer") & (values[1] != "otro"):
-        values[1] = otro
+        values[1] = 'otro'
         # error['gender'] = "Invalid parameter"
     if (values[2] < 0) | (values[2] > 480):
         values[2] = 90
         # error['time'] = "Invalid parameter"
     if (values[3] != "historica") & (values[3] != "turistica") & (values[3] != "literaria") & (values[3] != "patrimonio"):
-        values[3] = "turistica"
+        values[3] = "historica"
         # error['route_type'] = "Invalid parameter"
     if (values[4] != "gratis") & (values[4] != "1-50") & (values[4] != "+50"):
         values[4] = "gratis"
@@ -67,7 +67,7 @@ def check_values(values):
         values[5] = "baja"
         # error['difficulty'] = "Invalid parameter"
     if (values[6] != "solo") & (values[6] != "pareja")& (values[6] != "familia") & (values[6] != "amigos"):
-        values[6] = "solo"
+        values[6] = "pareja"
         # error['companions'] = "Invalid parameter"
     if (values[7] != "a pie") & (values[7] != "bicicleta"):
         values[7] = "a pie"   

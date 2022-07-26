@@ -69,7 +69,16 @@ https://api-routes-data.herokuapp.com/postUser/
 Admite mayusculas, minusculas y acentos
 
 Return: {"user_id": 42}
-Return: {"name_parameter": "Invalid parameter"}
+
+Default parameters:
+    age = 1985
+    gender = 'otro'
+    time = 90
+    route_type = 'historica'
+    price = 'gratis'
+    difficulty = 'baja'
+    companions = 'pareja'
+    transport = 'a pie'
 
 {
     "age": "Int. (1900-2022)",
