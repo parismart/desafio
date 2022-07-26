@@ -29,17 +29,39 @@ def json_poi(pois):
 
 def get_values(request):
     import datetime
+    from unidecode import unidecode
     age = request.GET.get('age', '0')
-    gender = request.GET.get('gender', 'None').lower()
-    time = request.GET.get('time', '0')
-    type = request.GET.get('route_type', 'None').lower()
-    price = request.GET.get('price', 'None').lower()
-    difficulty = request.GET.get('difficulty', 'None').lower()
-    companions = request.GET.get('companions', 'None').lower()
-    transport = request.GET.get('transport', 'None').lower()
+    gender = unidecode(request.GET.get('gender', 'otro').lower().strip())
+    time = request.GET.get('time', '90')
+    route_type = unidecode(request.GET.get('route_type', 'historica').lower().strip())
+    price = unidecode(request.GET.get('price', 'None').lower().strip())
+    difficulty = unidecode(request.GET.get('difficulty', 'baja').lower().strip())
+    companions = unidecode(request.GET.get('companions', 'solo').lower().strip())
+    transport = unidecode(request.GET.get('transport', 'a pie').lower().strip().replace('-',' '))
     time_stamp = str(datetime.datetime.now().time())
-    user_values = (age, gender, time, type, price, difficulty, companions, transport, time_stamp)
+    user_values = (age, gender, time, route_type, price, difficulty, companions, transport, time_stamp)
     return(user_values)
+
+def check_values(values):
+    error = {}
+    if values[0] == '0':
+        error['age'] = "Empty parameter"
+    if (values[1] != "hombre") & (values[1] != "mujer") & (values[1] != "otro"):
+        error['gender'] = "Invalid parameter"
+    if (int(values[2]) < 0) | (int(values[2]) > 480):
+        error['time'] = "Invalid parameter"
+    if (values[3] != "historica") & (values[3] != "turistica") & (values[3] != "literaria") & (values[3] != "patrimonio"):
+        error['route_type'] = "Invalid parameter"
+    if (values[4] != "gratis") & (values[4] != "1-50") & (values[4] != "+50"):
+        error['gender'] = "Invalid parameter"
+    if (values[5] != "baja") & (values[5] != "alta"):
+        error['difficulty'] = "Invalid parameter"
+    if (values[6] != "solo") & (values[6] != "pareja")& (values[6] != "familia") & (values[6] != "amigos"):
+        error['companions'] = "Invalid parameter"
+    if (values[7] != "a pie") & (values[7] != "bicicleta"):
+        error['transport'] = "Invalid parameter"
+    return error
+    
 
 def mapping(x):
     if x == 'Gratis':

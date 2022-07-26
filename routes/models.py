@@ -33,7 +33,7 @@ class Users(models.Model):
     age = models.PositiveIntegerField()
     gender = models.CharField(max_length=20, default='None')
     time = models.PositiveIntegerField()
-    type = models.CharField(max_length=20, default='None')
+    route_type = models.CharField(max_length=20, default='None')
     price = models.CharField(max_length=20, default='None')
     difficulty = models.CharField(max_length=20, default='None')
     companions = models.CharField(max_length=20, default='None')
