@@ -64,11 +64,8 @@ The last endpoint, need the same parameters has the previous one and returns an 
 
 ## Contributors
 
-[@parismart](https://github.com/parismart)
-[@Ismaelpbla](https://github.com/Ismaelpbla)
-[@Gabox29](https://github.com/Gabox29)
-[@Rafipaulino](https://github.com/Rafipaulino)
-[@Germanga2001](https://github.com/Germanga2001)
-
-
-
+- [@parismart](https://github.com/parismart)
+- [@Ismaelpbla](https://github.com/Ismaelpbla)
+- [@Gabox29](https://github.com/Gabox29)
+- [@Rafipaulino](https://github.com/Rafipaulino)
+- [@Germanga2001](https://github.com/Germanga2001)
