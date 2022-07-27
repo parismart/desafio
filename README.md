@@ -69,5 +69,3 @@ The last endpoint, need the same parameters has the previous one and returns an 
 
 
 
-
-
