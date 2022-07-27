@@ -18,8 +18,9 @@ The following project consist in an API with multiple endpoints that return info
 
 - `Python`: Python is a high-level, interpreted, general-purpose programming language
 - `Heroku`: cloud platform as a service supporting several programming languages
+- `Django`:  free and open-source, Python-based web framework that follows the model–template–views architectural pattern
 - `PostgreSQL`:  relational database management system emphasizing extensibility and SQL compliance
-- `Typeform`: online form building and online surveys. Its main software creates dynamic forms based on user needs.
+- `Typeform`: online form building and online surveys. Its main software creates dynamic forms based on user needs
 
 ## Parts of the Project
 
@@ -27,7 +28,7 @@ The following project consist in an API with multiple endpoints that return info
 
 We need two tables, one containing information of the 24 routes and another one the information of the respective points of interest for each route. This criteria comes from this [web](https://cultural.valencia.es/es/rutas/) of the city hall of Valencia.
 
-So we scrapped the vast majority of the data from the [web](https://cultural.valencia.es/es/rutas/) just mentioned, in order to do this we use ```Beautiful Soup``` as our main to tool for scrapping both the web and the kmls containing the points of interest information.
+So we scrapped the vast majority of the data from the [web](https://cultural.valencia.es/es/rutas/) just mentioned, in order to do this we use `Beautiful Soup` and `Selenium` as ours main tools for scrapping both the web and the kmls containing the points of interest information.
 
 On the other hand, we also gathered users preferences on their type of route by creating a form using `Typeform`, at the end we reached 74 forms filled over the span of a week.
 
@@ -42,6 +43,10 @@ After all the cleaning, the final csv are `routes.csv` and `poi.csv`.
 With those 74 forms that haven been filled, we created up to 30000 synthetic data to train the model properly, giving the best score the MLP (Multi Layer Perceptron) model with an accuracy of 0.935
 
 ### Heroku App
+
+In order to properly use heroku on your own computer:
+
+1. Follow the instrucionts of the following link (https://devcenter.heroku.com/articles/getting-started-with-python)
 
 The final part of the project, practically speaking the implementation of all the previous steps.
 
