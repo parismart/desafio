@@ -35,7 +35,7 @@ On the other hand, we also gathered users preferences on their type of route by 
 
 Having done the acquisition of the data the next we did was the data cleaning and adding some columns; for example filling Nan values, stripping spaces from categories, translating columns to valencian, spanish and english.
 
-After all the cleaning, the final csv are `absolute_routes.csv` and `absolute_poi.csv`.
+After all the cleaning, the final csv are `routes.csv` and `poi.csv`.
 
 ### Model Creation
 
