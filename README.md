@@ -62,6 +62,16 @@ This endpoint employ the model we created, returning a recommended route, by def
 The last endpoint, need the same parameters has the previous one and returns an user id of the one that just has been created:
 - https://api-routes-data.herokuapp.com/postUser/
 
+#### Default parameters:
+    age = 1985
+    gender = 'otro'
+    time = 90
+    route_type = 'historica'
+    price = 'gratis'
+    difficulty = 'baja'
+    companions = 'pareja'
+    transport = 'a pie'
+
 ## Contributors
 
 - [@parismart](https://github.com/parismart)
