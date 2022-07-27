@@ -12,6 +12,7 @@ The following project consist in an API with multiple endpoints that return info
 	- [Data Cleaning](#data-cleaning)
 	- [Model Creation](#model-creation)
 	- [Heroku App](#heroku-app)
+- [Ccontributors](#contributors)
 
 ## Technologies
 
@@ -61,11 +62,13 @@ This endpoint employ the model we created, returning a recommended route, by def
 The last endpoint, need the same parameters has the previous one and returns an user id of the one that just has been created:
 - https://api-routes-data.herokuapp.com/postUser/
 
+## Contributors
 
-
-
-
-
+[@parismart](https://github.com/parismart)
+[@Ismaelpbla](https://github.com/Ismaelpbla)
+[@Gabox29](https://github.com/Gabox29)
+[@Rafipaulino](https://github.com/Rafipaulino)
+[@Germanga2001](https://github.com/Germanga2001)
 
 
 
