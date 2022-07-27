@@ -12,9 +12,6 @@ The following project consist in an API with multiple endpoints that return info
 	- [Data Cleaning](#data-cleaning)
 	- [Model Creation](#model-creation)
 	- [Heroku App](#heroku-app)
-- [How To Use](#how-to-use)
-	- [Installation 🔧](#installation)
-	- [Usage 📦](#usage)
 
 ## Technologies
 
