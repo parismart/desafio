@@ -12,7 +12,7 @@ The following project consist in an API with multiple endpoints that return info
 	- [Data Cleaning](#data-cleaning)
 	- [Model Creation](#model-creation)
 	- [Heroku App](#heroku-app)
-- [Ccontributors](#contributors)
+- [Contributors](#contributors)
 
 ## Technologies
 
